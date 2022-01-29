@@ -1,0 +1,19 @@
+{
+    "name":"v0.1.8",
+    "notes":"Added File explorer",
+    "pub_date":"2021-12-31T19:25:57Z",
+    "platforms": {
+        "darwin": {
+            "signature":"",
+            "url":"https://github.com/blueedgetechno/win11React/releases/download/win11inreact-v0.1.8/Win11inReact.app.tar.gz"
+        },
+        "linux": {
+            "signature":"",
+            "url":"https://github.com/blueedgetechno/win11React/releases/download/win11inreact-v0.1.8/win11in-react_0.1.8_amd64.AppImage.tar.gz"
+        },
+        "win64": {
+            "signature":"",
+            "url":"https://github.com/blueedgetechno/win11React/releases/download/win11inreact-v0.1.8/Win11inReact_0.1.8_x64.msi.zip"
+        }
+    }
+}
