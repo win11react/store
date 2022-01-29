@@ -1,0 +1,61 @@
+name: JSON check
+
+on:
+  pull_request:
+
+jobs:
+  json:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: json-syntax-check
+        uses: limitusus/json-syntax-check@v1
+        with:
+          pattern: "\\.json$"
+          
+  auto:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Expose git commit data
+        uses: rlespinasse/git-commit-data-action@v1.x
+        
+      - name: Print git commit data
+        run: |
+          echo "Get author info"
+          echo " - ${{ env.GIT_COMMIT_AUTHOR }}"
+          echo " - ${{ env.GIT_COMMIT_AUTHOR_NAME }}"
+          echo " - ${{ env.GIT_COMMIT_AUTHOR_EMAIL }}"
+          echo "Get committer info"
+          echo " - ${{ env.GIT_COMMIT_COMMITTER }}"
+          echo " - ${{ env.GIT_COMMIT_COMMITTER_NAME }}"
+          echo " - ${{ env.GIT_COMMIT_COMMITTER_EMAIL }}"
+          echo "Get message info"
+          echo " - ${{ env.GIT_COMMIT_MESSAGE_SUBJECT }}"
+          echo " - ${{ env.GIT_COMMIT_MESSAGE_SUBJECT_SANITIZED }}"
+          echo " - ${{ env.GIT_COMMIT_MESSAGE_BODY }}"  
+        
+      - name: andrew
+        if: env.GIT_COMMIT_AUTHOR_NAME == 'andrewstech'
+        uses: alexwilson/enable-github-automerge-action@main
+        with:
+          github-token: "${{ secrets.BOT }}"
+        
+      - name: blue
+        if: env.GIT_COMMIT_AUTHOR_NAME == 'blueedgetechno'
+        uses: alexwilson/enable-github-automerge-action@main
+        with:
+          github-token: "${{ secrets.BOT }}"   
+
+  
+  run-if-fail:
+    if: ${{ always() && (needs.json.result=='failure') }}
+    needs: [json]
+    runs-on: ubuntu-latest
+    steps:
+    - name: Comment PR
+      uses: unofficial-skills/actions-comment-pull-request@main
+      with:
+         message: |
+              ❌ Storing the JSON file has failed due to verification issues
+         GITHUB_TOKEN: ${{ secrets.BOT }}
