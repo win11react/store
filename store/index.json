@@ -96,6 +96,22 @@
     }
   },
   {
+    "name": "Word",
+    "icon": "https://raw.githubusercontent.com/win11react/store/main/store/img/word.svg",
+    "type": "app",
+    "data": {
+      "type": "IFrame",
+      "url": "https://win.asylum-os.com/data/word.html",
+      "gallery": [
+        "https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4r1GB",
+        "https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4qsko",
+        "https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4qiBY"
+      ],
+      "desc": "Microsoft Word is a word processing software developed by Microsoft. It was first released on October 25, 1983, under the name Multi-Tool Word for Xenix systems",
+      "feat": "word processing"
+    }
+  },
+  {
     "name": "Shell Shockers",
     "icon": "https://play-lh.googleusercontent.com/P-nde227L29s8w5U44kTPLiEnMEJUhJpEr4jL6tD6LV65Xz0JZtI4wEyFN-smsNrx-Q",
     "type": "game",

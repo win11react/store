@@ -1,7 +1,7 @@
 ### Hi there 👋
 
 
-For the store please visit: https://github.com/win11bot/win11bot/tree/main/store
+For the store please visit: https://github.com/win11react/store/tree/main/store
 
 ### To add your game/app 🎮
 
@@ -9,7 +9,7 @@ First make sure they accept iframe, you can check by inserting the url in this [
 
 #### Either
 
-#### 1. Create an [Issue](https://github.com/win11bot/win11bot/issues/new/choose) and follow the steps
+#### 1. Create an [Issue](https://github.com/win11react/store/issues/new/choose) and follow the steps
 
 ### or
 
@@ -43,6 +43,6 @@ Add your game/app in the file (don't beautify the code, just add your game/app o
 # STOP SUGGESTING ANDROID GAMES
 
 ## Contributors
-<a href="https://github.com/win11bot/win11bot/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=win11bot/win11bot" />
+<a href="https://github.com/win11react/store/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=win11react/store" />
 </a>
