@@ -1,0 +1,28 @@
+name: Bug Report
+description: Submit a Bug Report
+title: '[BUG] Untitled Bug Report'
+labels: 'bug'
+assignees: 
+  - andrewstech
+  - Lukas-Batema
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for taking the time to fill out a bug report!
+  - type: textarea
+    attributes:
+      label: Bug Description
+      description: Tell us more about the bug.
+      placeholder: The VSCode is missing, since it has been moved to the store
+      value: bug description
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: Resource URL
+      description: If possible, add a Google Drive (or related service) link to help us reproduce the bug.
+      placeholder: https://drive.google.com/file/d/1BlWEGA_j8XVgRCIB65mcRk4rnYdFyspO/view?usp=sharing
+      value: resource url
+    validations:
+      required: false

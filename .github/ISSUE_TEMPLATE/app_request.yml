@@ -1,0 +1,37 @@
+name: App Request
+description: Request an App or a Game
+title: '[REQUEST] Untitled Request'
+labels: 'app-request'
+assignees: 
+  - andrewstech
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for taking the time to request an app!
+  - type: dropdown
+    attributes: 
+      label: App Type
+      description: Is it an app or a game you are suggesting?
+      multiple: false
+      options:
+        - label: App
+        - label: Game
+    validations:
+      required: true
+  - type: input
+    attributes:
+      label: App URL
+      description: What is the app's URL? (Please make sure it is IFrame-able).
+      placeholder: https://classic.minecraft.net
+      value: app url
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: App Description
+      description: Tell us more about the app.
+      placeholder: Minecraft Classic is an online (basic and old) alternative to the new, and updated Minecraft Java and Bedrock Editions.
+      value: app description
+    validations:
+      required: false
