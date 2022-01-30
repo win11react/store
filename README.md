@@ -44,5 +44,5 @@ Add your game/app in the file (don't beautify the code, just add your game/app o
 
 ## Contributors
 <a href="https://github.com/win11bot/win11bot/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=win11bot/win11bot" />
+  <img src="https://contrib.rocks/image?repo=win11react/store" />
 </a>
