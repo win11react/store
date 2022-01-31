@@ -15,8 +15,8 @@ body:
       description: Is it an app or a game you are suggesting?
       multiple: false
       options:
-        - label: App
-        - label: Game
+        - App
+        - Game
     validations:
       required: true
   - type: input
@@ -27,6 +27,14 @@ body:
       value: app url
     validations:
       required: true
+  - type: input
+    attributes:
+      label: App Icon
+      description: Do you have the url of game/app icon ? (optional)
+      placeholder: https://cdn.iconscout.com/icon/free/png-256/minecraft-2752120-2284937.png
+      value: app icon
+    validations:
+      required: false
   - type: textarea
     attributes:
       label: App Description
