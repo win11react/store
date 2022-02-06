@@ -17,7 +17,7 @@ jobs:
 
       - name: Run Action
         id: parse
-        uses: ./
+        uses: peter-murray/issue-forms-body-parser@v2.0.0
         with:
           issue_id: ${{ github.event.issue.number }}
           separator: '###'
