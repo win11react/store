@@ -11,7 +11,7 @@ body:
         Thank you for taking the time to request an app!
   - type: dropdown
     attributes: 
-      label: >> App Type >>
+      label:  ">>App Type>>"
       description: Is it an app or a game you are suggesting?
       multiple: false
       options:
