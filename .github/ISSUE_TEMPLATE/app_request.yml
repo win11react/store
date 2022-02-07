@@ -1,6 +1,6 @@
 name: App Request
 description: Request an App or a Game
-title: '[REQUEST] Write your game/app name here'
+title: '[REQUEST]'
 labels: 'app-request'
 assignees: 
   - andrewstech
@@ -9,6 +9,15 @@ body:
     attributes:
       value: |
         Thank you for taking the time to request an app!
+  - type: input
+    id: " >> name >>"
+    attributes:
+      label: App or Game Name
+      description: What is the app's Name?
+      placeholder: potato
+    validations:
+      required: true
+      
   - type: dropdown
     attributes: 
       label:  ">>App Type>>"
