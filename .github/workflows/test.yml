@@ -7,7 +7,7 @@ on:
 jobs:
   test:
     name: Test Action
-    if: contains(github.event.issue.labels.*.name, 'test-action')
+    #if: contains(github.event.issue.labels.*.name, 'test-action')
 
     runs-on: ubuntu-20.04
 
@@ -21,8 +21,8 @@ jobs:
         with:
           issue_id: ${{ github.event.issue.number }}
           separator: '###'
-          label_marker_start: '--'
-          label_marker_end: '--'
+          label_marker_start: '**'
+          label_marker_end: '**'
 
       - name: Show parsed data
         run: |
