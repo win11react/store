@@ -12,8 +12,8 @@ body:
   - type: input
     id: --name--
     attributes:
-      label: App or Game Name
-      description: "_What is the app's Name?_"
+      label: _App or Game Name_
+      description: What is the app's Name?
       placeholder: potato
     validations:
       required: true
