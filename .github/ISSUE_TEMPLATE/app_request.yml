@@ -10,7 +10,7 @@ body:
       value: |
         Thank you for taking the time to request an app!
   - type: input
-    id: " >> name >>"
+    id: " -- name --"
     attributes:
       label: App or Game Name
       description: What is the app's Name?
