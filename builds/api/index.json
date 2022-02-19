@@ -1,19 +1,19 @@
 {
-    "name":"v0.2.1",
-    "notes":"Bug fix",
-    "pub_date":"2021-12-31T19:25:57Z",
+    "name":"v0.2.2",
+    "notes":"Move to new update sever. Enabled signing of updates, added settings app.",
+    "pub_date":"2022-02-19T20:24:57Z",
     "platforms": {
         "darwin": {
             "signature":"",
-            "url":"https://github.com/blueedgetechno/win11React/releases/download/win11inreact-v0.2.1/Win11inReact.app.tar.gz"
+            "url":"https://github.com/blueedgetechno/win11React/releases/download/win11inreact-v0.2.2/Win11inReact.app.tar.gz"
         },
         "linux": {
             "signature":"",
-            "url":"https://github.com/blueedgetechno/win11React/releases/download/win11inreact-v0.2.1/win11in-react_0.2.1_amd64.AppImage.tar.gz"
+            "url":"https://github.com/blueedgetechno/win11React/releases/download/win11inreact-v0.2.2/win11in-react_0.2.2_amd64.AppImage.tar.gz"
         },
         "win64": {
             "signature":"",
-            "url":"https://github.com/blueedgetechno/win11React/releases/download/win11inreact-v0.2.1/Win11inReact_0.2.1_x64.msi.zip"
+            "url":"https://github.com/blueedgetechno/win11React/releases/download/win11inreact-v0.2.2/Win11inReact_0.2.2_x64.msi.zip"
         }
     }
 }
