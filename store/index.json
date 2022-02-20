@@ -450,6 +450,19 @@
       ],
       "desc": "Scratch is a high-level block-based visual programming language and website targeted primarily at children 8–16 as an educational tool for programming. ",
       "feat": "Users on the site, called Scratchers, can create projects on the website using a block-like interface."
-    }
-  }
-]
+   }
+  },
+  {
+    "name": "Cookie Cliker",
+    "icon": "https://llk.github.io/scratch-gui/master/static/favicon.ico",
+    "type": "app",
+    "data": {
+      "type": "IFrame",
+      "url": "https://orteil.dashnet.org/cookieclicker/",
+      "gallery": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQoPckz603CcUVyrUwDAX04l7OXMpKZQXI4QUr9P5_UMas37EMmrSUNn9JgK5Yzz0R8Kw&usqp=CAU",
+        "https://www.researchgate.net/profile/Robert-Morris-5/publication/228389474/figure/fig2/AS:393642368880642@1470863062228/A-screenshot-of-the-Scratch-programming-blocks.png",
+        "https://techcrunch.com/wp-content/uploads/2019/01/ProjectEditor.png?w=430&h=230&crop=1"
+      ],
+      "desc": "o jogo é legal cara",
+      "feat": "Users on the site, called Scratchers, can create projects on the website using a block-like interface."   
