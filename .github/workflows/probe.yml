@@ -36,7 +36,6 @@ jobs:
       - name: Show parsed data
         run: |
           echo '${{ steps.parse.outputs.payload }}' > data.json
-          json-to-env data.json data.sh
-          chmod +x data.sh
-          ./data.sh
+          json-to-env data.json $HOME/.bashrc
+          source ~/.bashrc
           printenv Name
