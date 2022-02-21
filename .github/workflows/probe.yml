@@ -14,6 +14,15 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
+        
+      - name: Install Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: '16.6.1'
+          
+      - name: Install json-to-env
+        run: npm install -g json-to-env
+
 
       - name: Run Action
         id: parse
@@ -26,4 +35,8 @@ jobs:
 
       - name: Show parsed data
         run: |
-          echo "${{ steps.parse.outputs.payload }}"
+          echo "${{ steps.parse.outputs.payload }}" > data.json
+          json-to-env data.json data.sh
+          chmod +x data.sh
+          ./data.sh
+          printenv App-Name
