@@ -6,7 +6,7 @@ on:
 
 jobs:
   test:
-    name: Test Action
+    name: probe Action
     #if: contains(github.event.issue.labels.*.name, 'test-action')
 
     runs-on: ubuntu-20.04
@@ -35,7 +35,7 @@ jobs:
 
       - name: Show parsed data
         run: |
-          echo '"${{ steps.parse.outputs.payload }}"' > data.json
+          echo '${{ steps.parse.outputs.payload }}' > data.json
           json-to-env data.json data.sh
           chmod +x data.sh
           ./data.sh
