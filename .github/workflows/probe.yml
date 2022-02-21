@@ -39,4 +39,4 @@ jobs:
           json-to-env data.json data.sh
           chmod +x data.sh
           ./data.sh
-          printenv App-Name
+          printenv Name
