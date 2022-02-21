@@ -27,19 +27,19 @@ jobs:
       - name: call-api
         run: |
           FRAME=$(curl https://win11react-api-united-states.herokuapp.com/api/x-frame?url=${{ steps.issue-parser.outputs.issueparser_URL }})
-          echo "::set-env name=FRAME::$FRAME"
+          echo '::set-output name=FRAMES::$FRAME'
           
       - name: iframe
-        run: echo $FRAME
+        run: echo ${{ steps.call-api.outputs.FRAMES }}
       
       - uses: ben-z/actions-comment-on-issue@1.0.2
-        if: ${{ FRAME == 'true' }}
+        if: ${{ steps.call-api.outputs.FRAMES == 'true' }}
         with:
           message: "Sorry the URL for the website ${{ steps.issue-parser.outputs.issueparser_Name }} is not iframeable."
           GITHUB_TOKEN: ${{ secrets.BOT }}
           
       - uses: ben-z/actions-comment-on-issue@1.0.2
-        if: ${{ FRAME == 'false' }}
+        if: ${{ steps.call-api.outputs.FRAMES == 'false' }}
         with:
           message: "Thankyou for suggesting, ${{ steps.issue-parser.outputs.issueparser_Name }} once approved it will be added. "
           GITHUB_TOKEN: ${{ secrets.BOT }}       
