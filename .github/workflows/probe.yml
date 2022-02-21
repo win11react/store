@@ -24,14 +24,14 @@ jobs:
         run: npm install -g json-to-env
 
 
-      - name: Run Action
-        id: parse
-        uses: peter-murray/issue-forms-body-parser@v2.0.0
+      - uses: stefanbuck/github-issue-parser@v2
+        id: issue-parser
         with:
-          issue_id: ${{ github.event.issue.number }}
-          separator: '###'
-          label_marker_start: '>>'
-          label_marker_end: '>>'
+          template-path: .github/ISSUE_TEMPLATE/app_request.yml
+
+      - run: echo '${{ steps.issue-parser.outputs.jsonString }}' > bug-details.json
+      
+      - run: echo '${{ steps.issue-parser.outputs.issueparser_Name }}' > name.json
 
       - name: Show parsed data
         run: |
