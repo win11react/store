@@ -26,14 +26,15 @@ jobs:
 
       - name: API
         run: |
-          echo '::set-output name=API::$(curl https://win11react-api-united-states.herokuapp.com/api/x-frame?url=${{ steps.issue-parser.outputs.issueparser_URL }})'
-          echo done
+          export api=$(curl https://win11react-api-united-states.herokuapp.com/api/x-frame?url=${{ steps.issue-parser.outputs.issueparser_URL }})
+          echo $api
+          echo "::set-env name=FRAME::$api"
           
       - name: iframe
-        run: echo ${{ steps.API.outputs.API }}
+        run: echo ${{ FRAME}}
       
       - uses: ben-z/actions-comment-on-issue@1.0.2
-        if: ${{ steps.API.outputs.API == 'true' }}
+        if: ${{ FRAME == 'true' }}
         with:
           message: "Sorry the URL for the website ${{ steps.issue-parser.outputs.issueparser_Name }} is not iframeable."
           GITHUB_TOKEN: ${{ secrets.BOT }}
