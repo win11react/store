@@ -11,7 +11,7 @@ body:
         Thank you for taking the time to request an app!
   - type: input
     attributes:
-      label: '>>App-Name>>'
+      label: '>>Name>>'
       description: What is the app's Name?
       placeholder: potato
     validations:
@@ -19,7 +19,7 @@ body:
       
   - type: dropdown
     attributes: 
-      label:  ">>App-Type>>"
+      label:  ">>Type>>"
       description: Is it an app or a game you are suggesting?
       multiple: false
       options:
@@ -29,21 +29,21 @@ body:
       required: true
   - type: input
     attributes:
-      label: ">>App-URL>>"
+      label: ">>URL>>"
       description: What is the app's URL? (Please make sure it is IFrame-able).
       placeholder: https://classic.minecraft.net
     validations:
       required: true
   - type: input
     attributes:
-      label: ">>App-Icon>>"
+      label: ">>Icon>>"
       description: Do you have the url of game/app icon ? (optional)
       placeholder: https://cdn.iconscout.com/icon/free/png-256/minecraft-2752120-2284937.png
     validations:
       required: false
   - type: textarea
     attributes:
-      label: ">>App-Description>>"
+      label: ">>Description>>"
       description: Tell us more about the app.
       placeholder: Minecraft Classic is an online (basic and old) alternative to the new, and updated Minecraft Java and Bedrock Editions.
     validations:
