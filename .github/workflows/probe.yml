@@ -39,13 +39,13 @@ jobs:
           echo $FRAME
       
       - uses: ben-z/actions-comment-on-issue@1.0.2
-        if: $FRAME==true
+        if: ${{ FRAME == 'true' }}
         with:
           message: "Sorry the URL for the website ${{ steps.issue-parser.outputs.issueparser_Name }} is not iframeable."
           GITHUB_TOKEN: ${{ secrets.BOT }}
           
       - uses: ben-z/actions-comment-on-issue@1.0.2
-        if: $FRAME==false
+        if: ${{ FRAME == 'false' }}
         with:
           message: "Thankyou for suggesting, ${{ steps.issue-parser.outputs.issueparser_Name }} once approved it will be added. "
           GITHUB_TOKEN: ${{ secrets.BOT }}       
