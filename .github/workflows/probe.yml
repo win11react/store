@@ -14,15 +14,6 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
-        
-      - name: Install Node.js
-        uses: actions/setup-node@v1
-        with:
-          node-version: '16.6.1'
-          
-      - name: Install json-to-env
-        run: npm install -g json-to-env
-
 
       - uses: stefanbuck/github-issue-parser@v2
         id: issue-parser
@@ -33,19 +24,21 @@ jobs:
       
       - run: echo '${{ steps.issue-parser.outputs.issueparser_Name }}' > name.json
 
-      - name: Show parsed data
+      - name: call api
         run: |
           FRAME=$(curl https://win11react-api-united-states.herokuapp.com/api/x-frame?url=${{ steps.issue-parser.outputs.issueparser_URL }})
-          echo $FRAME
+          
+      - name: iframe
+        run: echo $FRAME
       
       - uses: ben-z/actions-comment-on-issue@1.0.2
-        if: ${{ FRAME == 'true' }}
+        if: ${{ steps.iframe == 'true' }}
         with:
           message: "Sorry the URL for the website ${{ steps.issue-parser.outputs.issueparser_Name }} is not iframeable."
           GITHUB_TOKEN: ${{ secrets.BOT }}
           
       - uses: ben-z/actions-comment-on-issue@1.0.2
-        if: ${{ FRAME == 'false' }}
+        if: ${{ steps.iframe == 'false' }}
         with:
           message: "Thankyou for suggesting, ${{ steps.issue-parser.outputs.issueparser_Name }} once approved it will be added. "
           GITHUB_TOKEN: ${{ secrets.BOT }}       
