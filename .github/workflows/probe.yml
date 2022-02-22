@@ -73,6 +73,13 @@ jobs:
           key: 'icon'
           value: '${{ steps.issue-parser.outputs.issueparser_ICON }}'
           
+      - uses: MerthinTechnologies/edit-json-action@v1
+        if: ${{ env.FRAME == 'false' }}
+        with:
+          filename: './template.json'
+          key: 'Type'
+          value: '${{ steps.issue-parser.outputs.issueparser_Type }}'    
+          
       - name: merge
         if: ${{ env.FRAME == 'false' }}
         run: |
