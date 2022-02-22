@@ -31,16 +31,16 @@ jobs:
           echo "::set-env name=FRAME::$api"
           
       - name: iframe
-        run: echo ${{ FRAME}}
+        run: echo ${{ env.FRAME}}
       
       - uses: ben-z/actions-comment-on-issue@1.0.2
-        if: ${{ FRAME == 'true' }}
+        if: ${{ env.FRAME == 'true' }}
         with:
           message: "Sorry the URL for the website ${{ steps.issue-parser.outputs.issueparser_Name }} is not iframeable."
           GITHUB_TOKEN: ${{ secrets.BOT }}
           
       - uses: ben-z/actions-comment-on-issue@1.0.2
-        if: ${{ steps.API.outputs.API == 'false' }}
+        if: ${{ env.FRAME == 'false' }}
         with:
           message: "Thankyou for suggesting, ${{ steps.issue-parser.outputs.issueparser_Name }} once approved it will be added. "
           GITHUB_TOKEN: ${{ secrets.BOT }}       
