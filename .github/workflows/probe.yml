@@ -16,6 +16,11 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
+        
+      - uses: actions/setup-python@v2
+        with:
+          python-version: '3.9' # Version range or exact version of a Python version to use, using SemVer's version range syntax
+          architecture: 'x64'  
 
       - uses: stefanbuck/github-issue-parser@v2
         id: issue-parser
@@ -45,4 +50,36 @@ jobs:
         if: ${{ env.FRAME == 'false' }}
         with:
           message: "Thankyou for suggesting, ${{ steps.issue-parser.outputs.issueparser_Name }} once approved it will be added. "
-          GITHUB_TOKEN: ${{ secrets.BOT }}       
+          GITHUB_TOKEN: ${{ secrets.BOT }}
+          
+      - uses: MerthinTechnologies/edit-json-action@v1
+        with:
+          filename: './template.json'
+          key: 'name'
+          value: '${{ steps.issue-parser.outputs.issueparser_Name }}'
+          
+      - uses: MerthinTechnologies/edit-json-action@v1
+        with:
+          filename: './template.json'
+          key: 'url'
+          value: '${{ steps.issue-parser.outputs.issueparser_URL }}'
+          
+      - uses: MerthinTechnologies/edit-json-action@v1
+        with:
+          filename: './template.json'
+          key: 'icon'
+          value: '${{ steps.issue-parser.outputs.issueparser_ICON }}'
+          
+      - name: merge
+        run: |
+          export json=$(cat template.json)
+          python json-merge.py
+          
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v3
+        with:
+          commit-message: Add ${{ steps.issue-parser.outputs.issueparser_Name }}
+          title: dd ${{ steps.issue-parser.outputs.issueparser_Name }}
+          body: Add ${{ steps.issue-parser.outputs.issueparser_Name }} with url ${{ steps.issue-parser.outputs.issueparser_URL }}
+          branch: Add-${{ steps.issue-parser.outputs.issueparser_Name }}
+    
