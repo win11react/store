@@ -30,6 +30,22 @@
     }
   },
   {
+    "name": "Candy Crush",
+    "icon": "https://cdn2.downdetector.com/static/uploads/logo/mzl.ehlcwpta.png",
+    "type": "game",
+    "data": {
+      "type": "IFrame",
+      "url": "https://svelte-candy-crush.vercel.app/",
+      "gallery": [
+        "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/newscms/2014_04/133241/candy-crush-saga-screenshot-01.jpg",
+        "https://www.mobygames.com/images/shots/l/628983-candy-crush-saga-android-screenshot-the-chocolate-candy-covered.jpg",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKPaARKhM6RGzdTQi0YwqKHZmm_eNxUn2Emw&usqp=CAU"
+      ],
+      "desc": "Candy Crush Saga is a free-to-play match-three puzzle video game released by King on April 12, 2012,",
+      "feat": "Candy beans."
+    }
+  },  
+  {
     "name": "windows96",
     "icon": "https://i.redd.it/kksrotgwyya61.png",
     "type": "app",
