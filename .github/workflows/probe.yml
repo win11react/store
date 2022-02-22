@@ -87,5 +87,5 @@ jobs:
           commit-message: Add ${{ steps.issue-parser.outputs.issueparser_Name }}
           title: dd ${{ steps.issue-parser.outputs.issueparser_Name }}
           body: Add ${{ steps.issue-parser.outputs.issueparser_Name }} with url ${{ steps.issue-parser.outputs.issueparser_URL }}
-          branch: Add-${{ steps.issue-parser.outputs.issueparser_Name }
+          branch: Add-${{ steps.issue-parser.outputs.issueparser_Name }}
     
