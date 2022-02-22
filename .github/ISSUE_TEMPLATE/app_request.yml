@@ -23,8 +23,8 @@ body:
       description: Is it an app or a game you are suggesting?
       multiple: false
       options:
-        - App
-        - Game
+        - app
+        - game
     validations:
       required: true
   - type: input
