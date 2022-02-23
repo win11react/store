@@ -87,7 +87,7 @@ jobs:
           python json-merge.py
           rm name.json
           
-      - name: Create Pull Request
+      - name: cpr
         uses: peter-evans/create-pull-request@v3
         if: ${{ env.FRAME == 'false' }}
         with:
