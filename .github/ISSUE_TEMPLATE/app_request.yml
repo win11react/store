@@ -8,7 +8,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thank you for taking the time to request an app!
+        Thank you for taking the time to request an app! DO NOT USE ANY symbols IN YOUR ANSWERS. : is fine to use.
   - type: input
     attributes:
       label: 'Name'
