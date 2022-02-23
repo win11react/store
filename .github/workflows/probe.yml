@@ -86,6 +86,7 @@ jobs:
           export json=$(cat template.json)
           python json-merge.py
           rm name.json
+          rn bug-details.json
           
       - name: cpr
         uses: peter-evans/create-pull-request@v3
