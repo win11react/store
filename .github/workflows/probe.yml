@@ -49,7 +49,7 @@ jobs:
       - uses: ben-z/actions-comment-on-issue@1.0.2
         if: ${{ env.FRAME == 'false' }}
         with:
-          message: "Thankyou for suggesting, ${{ steps.issue-parser.outputs.issueparser_Name }} once approved it will be added. "
+          message: "Thank you for suggesting, ${{ steps.issue-parser.outputs.issueparser_Name }} once approved it will be added. "
           GITHUB_TOKEN: ${{ secrets.BOT }}
           
       - uses: MerthinTechnologies/edit-json-action@v1
