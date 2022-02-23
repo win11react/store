@@ -13,6 +13,13 @@ jobs:
         with:
           pattern: "\\.json$"
           
+      - name: Comment PR
+        uses: unofficial-skills/actions-comment-pull-request@main
+        with:
+           message: |
+                ✅ Welcome your PR has been validated successfully. 
+           GITHUB_TOKEN: ${{ secrets.BOT }}       
+          
   auto:
     runs-on: ubuntu-latest
     steps:
@@ -40,12 +47,28 @@ jobs:
         uses: alexwilson/enable-github-automerge-action@main
         with:
           github-token: "${{ secrets.BOT }}"
+          
+      - name: Comment PR
+        if: env.GIT_COMMIT_AUTHOR_NAME == 'andrewstech'
+        uses: unofficial-skills/actions-comment-pull-request@main
+        with:
+           message: |
+                ✅ Welcome Andrew your PR will be auto merged when CI passes.
+           GITHUB_TOKEN: ${{ secrets.BOT }}    
         
       - name: blue
         if: env.GIT_COMMIT_AUTHOR_NAME == 'blueedgetechno'
         uses: alexwilson/enable-github-automerge-action@main
         with:
-          github-token: "${{ secrets.BOT }}"   
+          github-token: "${{ secrets.BOT }}"
+     
+      - name: Comment PR
+        if: env.GIT_COMMIT_AUTHOR_NAME == 'blueedgetechno'
+        uses: unofficial-skills/actions-comment-pull-request@main
+        with:
+           message: |
+                ✅ Welcome Blue your PR will be auto merged when CI passes.
+           GITHUB_TOKEN: ${{ secrets.BOT }}
 
   
   run-if-fail:
@@ -57,5 +80,5 @@ jobs:
       uses: unofficial-skills/actions-comment-pull-request@main
       with:
          message: |
-              ❌ Storing the JSON file has failed due to verification issues
+              ❌ Storing of the JSON file has failed due to verification issues
          GITHUB_TOKEN: ${{ secrets.BOT }}
