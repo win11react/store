@@ -1,471 +1,488 @@
-[{
-    "name": "Visual Studio Code",
-    "icon": "https://raw.githubusercontent.com/blueedgetechno/win11React/master/public/img/icon/code.png",
-    "type": "app",
-    "data": {
-      "type": "IFrame",
-      "url": "https://vscode.dev",
-      "invert": true,
-      "gallery": [
-        "https://code.visualstudio.com/assets/home/home-screenshot-win.png"
-      ],
-      "desc": "Visual Studio Code is a free, lightweight, and extensible code editor for building web, desktop, and mobile applications, using any programming language and framework.\nVisual Studio Code has built-in support for Git source control management and powerful integrations with GitHub, an integrated debugger, and smart code completion with IntelliSense and with Al-driven IntelliCode. With over 30,000 extensions and themes in the Visual Studio Code Marketplace, you can customize the features and the look of Visual Studio Code to fit your needs, preferences, and style.\nYou can use Visual Studio Code to build any kind of app, for web, desktop, and mobile. Visual Studio Code supports JavaScript and TypeScript natively and offers extensions for coding in languages such as Python, Java, C/C++, C#, Go, Rust, PHP, and many more.",
-      "feat": "Fast, Powerful Editing-Linting, multi-cursor editing, parameter hints, and other powerful editing features.\nOver 30,000 extensions, and growing - Enable additional languages, themes, debuggers, commands, and more. VS Code's growing community shares their secret sauce to improve your workflow.\nBuild any app type, using any programming language and framework, including JavaScript and TypeScript, Python, Java, C/C++, C#, Go, Rust, PHP, and many more, as well as many popular technologies.\nSupport for notebooks including Jupyter, for data science and Al development.\nBuilt-in support for Git source control management and integrations with GitHub for managing issues and pull requests.\nIntelligent Code Completion - IntelliSense and Al-driven IntelliCode offer completions for variables, methods, and imported modules.\nRich Debugging-Print debugging is a thing of the past. Use debugging tools directly in VS Code.\nWrite code from anywhere with the Visual Studio Code Remote extensions and support for GitHub Codespaces."
+[
+    {
+        "name": "Visual Studio Code",
+        "icon": "https://raw.githubusercontent.com/blueedgetechno/win11React/master/public/img/icon/code.png",
+        "type": "app",
+        "data": {
+            "type": "IFrame",
+            "url": "https://vscode.dev",
+            "invert": true,
+            "gallery": [
+                "https://code.visualstudio.com/assets/home/home-screenshot-win.png"
+            ],
+            "desc": "Visual Studio Code is a free, lightweight, and extensible code editor for building web, desktop, and mobile applications, using any programming language and framework.\nVisual Studio Code has built-in support for Git source control management and powerful integrations with GitHub, an integrated debugger, and smart code completion with IntelliSense and with Al-driven IntelliCode. With over 30,000 extensions and themes in the Visual Studio Code Marketplace, you can customize the features and the look of Visual Studio Code to fit your needs, preferences, and style.\nYou can use Visual Studio Code to build any kind of app, for web, desktop, and mobile. Visual Studio Code supports JavaScript and TypeScript natively and offers extensions for coding in languages such as Python, Java, C/C++, C#, Go, Rust, PHP, and many more.",
+            "feat": "Fast, Powerful Editing-Linting, multi-cursor editing, parameter hints, and other powerful editing features.\nOver 30,000 extensions, and growing - Enable additional languages, themes, debuggers, commands, and more. VS Code's growing community shares their secret sauce to improve your workflow.\nBuild any app type, using any programming language and framework, including JavaScript and TypeScript, Python, Java, C/C++, C#, Go, Rust, PHP, and many more, as well as many popular technologies.\nSupport for notebooks including Jupyter, for data science and Al development.\nBuilt-in support for Git source control management and integrations with GitHub for managing issues and pull requests.\nIntelligent Code Completion - IntelliSense and Al-driven IntelliCode offer completions for variables, methods, and imported modules.\nRich Debugging-Print debugging is a thing of the past. Use debugging tools directly in VS Code.\nWrite code from anywhere with the Visual Studio Code Remote extensions and support for GitHub Codespaces."
+        }
+    },
+    {
+        "name": "Minecraft",
+        "icon": "https://raw.githubusercontent.com/win11react/store/main/store/img/minecraft.png",
+        "type": "game",
+        "data": {
+            "type": "IFrame",
+            "url": "https://classic.minecraft.net",
+            "gallery": [
+                "https://www.minecraft.net/content/dam/games/minecraft/key-art/CavesandCliffsPt1-dotNET-HomepagePromo-600x360.png",
+                "https://variety.com/wp-content/uploads/2019/02/minecraft-best-year-yet.png?w=600",
+                "https://www.minecraft.net/content/dam/games/minecraft/screenshots/RayTracing-MineCraft-PMP-Always-Something-New.jpg"
+            ],
+            "desc": "Minecraft is a sandbox construction video game developed by Mojang Studios where players interact with a fully modifiable three-dimensional environment made of blocks and entities.\nIts diverse gameplay lets players choose the way they play, allowing for countless possibilities. There are three actively maintained editions of Minecraft: Java Edition, Bedrock Edition, and Education Edition.",
+            "feat": "1.1 Combat changes.\n1.2 Fletching table functionality.\n1.3 Voted updates.\n1.4 Super Fancy graphics.\n1.5 Phasing out of NBT-based crafting recipes.\n1.6 Full split of liquids from blocks.\n1.7 Shaders.\n1.8 Archaeology."
+        }
+    },
+    {
+        "name": "Candy Crush",
+        "icon": "https://cdn2.downdetector.com/static/uploads/logo/mzl.ehlcwpta.png",
+        "type": "game",
+        "data": {
+            "type": "IFrame",
+            "url": "https://svelte-candy-crush.vercel.app/",
+            "gallery": [
+                "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/newscms/2014_04/133241/candy-crush-saga-screenshot-01.jpg",
+                "https://www.mobygames.com/images/shots/l/628983-candy-crush-saga-android-screenshot-the-chocolate-candy-covered.jpg",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKPaARKhM6RGzdTQi0YwqKHZmm_eNxUn2Emw&usqp=CAU"
+            ],
+            "desc": "Candy Crush Saga is a free-to-play match-three puzzle video game released by King on April 12, 2012,",
+            "feat": "Candy beans."
+        }
+    },
+    {
+        "name": "windows96",
+        "icon": "https://i.redd.it/kksrotgwyya61.png",
+        "type": "app",
+        "data": {
+            "type": "IFrame",
+            "url": "https://windows96.net/",
+            "gallery": [
+                "https://static.wikia.nocookie.net/windows/images/8/80/W98-2.png/revision/latest?cb=20191005212338",
+                "https://www.extremetech.com/wp-content/uploads/2017/02/win98-640x353.jpg",
+                "https://support.brother.com/g/b/img/faqend/faqh00000051_000/gb/en/5425/faqh000051_05.jpg"
+            ],
+            "desc": "Windows 96 recreation",
+            "feat": "The os older then your mother."
+        }
+    },
+    {
+        "name": "Python Compiler",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png",
+        "type": "app",
+        "data": {
+            "type": "IFrame",
+            "url": "https://www.programiz.com/python-programming/online-compiler/",
+            "gallery": [
+                "https://cdn.programiz.com/cdn/farfuture/IwFGGPqycIxTfzLl7mPdcaqUaircnStXfipaHd4EBik/mtime:1605833048/sites/all/themes/programiz/assets/compiler.png",
+                "https://www.programiz.com/blog/content/images/2020/07/programiz-online-compiler.png"
+            ],
+            "desc": "Compile Python"
+        }
+    },
+    {
+        "name": "Google Cricket",
+        "icon": "https://www.businessinsider.in/photo/75425726/how-to-play-cricket-on-google.jpg?imgsize=138543",
+        "type": "app",
+        "data": {
+            "type": "IFrame",
+            "url": "https://doodlecricket.github.io/#/",
+            "gallery": [
+                "https://www.businessinsider.in/photo/75425726/how-to-play-cricket-on-google.jpg?imgsize=138543",
+                "https://www.google.com/logos/doodles/2017/icc-champions-trophy-2017-begins-5642111205507072.6-lawcta.gif",
+                "https://i.ytimg.com/vi/Ud9Ts_NYAjQ/maxresdefault.jpg"
+            ],
+            "desc": "Playing Cricket in online",
+            "feat": "virtual cricket"
+        }
+    },
+    {
+        "name": "Excel",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Microsoft_Office_Excel_%282019%E2%80%93present%29.svg/826px-Microsoft_Office_Excel_%282019%E2%80%93present%29.svg.png",
+        "type": "app",
+        "data": {
+            "type": "IFrame",
+            "url": "https://win.asylum-os.com/data/excel.html",
+            "gallery": [
+                "https://www.techrepublic.com/a/hub/i/r/2019/05/31/b9b3ae1d-6799-4118-8bcf-2bc3747c018f/resize/1200x/04c6599c3bc58330bd3350dd77984274/figure-b.jpg",
+                "https://www.smartsheet.com/sites/default/files/IC-how-to-make-spreadsheet-11%20copy.jpg",
+                "https://www.techrepublic.com/a/hub/i/r/2021/05/17/0fda89a7-51a1-4ef2-9c66-d492f21b4254/resize/1200x/89b7448d974ce30168eb278f5230b2a4/excel-spreadsheet.jpg"
+            ],
+            "desc": "Microsoft Excel is a spreadsheet developed by Microsoft for Windows, macOS, Android and iOS. It features calculation, graphing tools, pivot tables",
+            "feat": "graphing tools"
+        }
+    },
+    {
+        "name": "Word",
+        "icon": "https://raw.githubusercontent.com/win11react/store/main/store/img/word.svg",
+        "type": "app",
+        "data": {
+            "type": "IFrame",
+            "url": "https://win.asylum-os.com/data/word.html",
+            "gallery": [
+                "https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4r1GB",
+                "https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4qsko",
+                "https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4qiBY"
+            ],
+            "desc": "Microsoft Word is a word processing software developed by Microsoft. It was first released on October 25, 1983, under the name Multi-Tool Word for Xenix systems",
+            "feat": "word processing"
+        }
+    },
+    {
+        "name": "Shell Shockers",
+        "icon": "https://play-lh.googleusercontent.com/P-nde227L29s8w5U44kTPLiEnMEJUhJpEr4jL6tD6LV65Xz0JZtI4wEyFN-smsNrx-Q",
+        "type": "game",
+        "data": {
+            "type": "IFrame",
+            "url": "https://eggcombat.com/",
+            "gallery": [
+                "https://images.crazygames.com/shellshockersio/20211202050253/shellshockersio-cover",
+                "https://play-lh.googleusercontent.com/vL0-VAubTWhJs4buUsPBJmPPF3469eT45CdMIZZVEf54D-Ko_2uvxC4qZUD_LKuhnaw=w412-h220-rw",
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeJNXXZ7sWn-5QK2_A5V9CHHaXR-fc6G7UBw&usqp=CAU"
+            ],
+            "desc": "3D multiplayer egg-based shooter.",
+            "feat": "Fried Eggs, Anyone?"
+        }
+    },
+    {
+        "name": "2048",
+        "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/2048_logo.svg/100px-2048_logo.svg.png",
+        "type": "game",
+        "data": {
+            "type": "IFrame",
+            "url": "https://glebbahmutov.com/2048/",
+            "gallery": [
+                "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/2048_win.png/495px-2048_win.png",
+                "https://i1.wp.com/itsfoss.com/wp-content/uploads/2018/07/play-2048-game-linux.jpeg",
+                "https://elgoog.im/2048/2048-game.png"
+            ],
+            "desc": "2048 is a single-player sliding tile puzzle video game written by Italian web developer Gabriele Cirulli and published on GitHub.",
+            "feat": "1. Single player game.\n2. Genre: Puzzle"
+        }
+    },
+    {
+        "name": "Smash karts",
+        "icon": "https://api.web.gamepix.com/assets/img/250/250/icon/smash-karts.png",
+        "type": "game",
+        "data": {
+            "type": "IFrame",
+            "url": "https://smashkarts.io",
+            "gallery": [
+                "https://static.gogy.com/ogimages/smashkarts-io.jpg",
+                "https://yt3.ggpht.com/f4e3X0TDQ6edrwk29w6pBgxLdTnNUvZdBkDGDO0zqlWXY6NGVjdDvlTKhyg4apwjykBu-hSGuw=s900-c-k-c0x00ffffff-no-rj",
+                "https://c.tenor.com/OOAB3Zw9lWsAAAAd/smash-karts-you-win.gif",
+                "https://cdn.titotu.io/images/games/smash-karts-631x355.jpg"
+            ],
+            "desc": "Smash Karts is a free io Multiplayer Kart Battle Arena game.\nIt is a three-dimensional multiplayer kart racing game. To win, you must drive your go-kart, pick up weaponry, and blow up other karts.",
+            "feat": "Drive fast\nFire rockets\nMake big explosions"
+        }
+    },
+    {
+        "name": "Krunker",
+        "icon": "https://krunker.io/img/newp.png",
+        "type": "game",
+        "data": {
+            "type": "IFrame",
+            "url": "https://krunker.io",
+            "invert": true,
+            "gallery": [
+                "https://cdn.akamai.steamstatic.com/steam/apps/1408720/capsule_616x353.jpg",
+                "https://i.redd.it/1oylfyu4giw21.png",
+                "https://d326lupd521z61.cloudfront.net/uploads/webp/images/krunker-.io.webp",
+                "https://www.mejoress.com/en/wp-content/uploads/Krunker-Aimbot-Hacks.jpg.webp"
+            ],
+            "desc": "Krunker.io is a fast-paced pixelated first-person shooter.\nIn this browser game, players drop into a pixelated world and fight against other players from around the world",
+            "feat": "Shooter Video Game\nBrowser game\nCasual game\nFree to Play"
+        }
+    },
+    {
+        "name": "Venge",
+        "icon": "https://venge.io/favicon-96x96.png",
+        "type": "game",
+        "data": {
+            "type": "IFrame",
+            "url": "https://venge.io/",
+            "invert": true,
+            "gallery": [
+                "https://images.crazygames.com/venge-io/20200822084809/venge-io-cover?auto=format,compress&q=75&cs=strip&ch=DPR&w=1200&h=630&fit=crop",
+                "https://store-images.s-microsoft.com/image/apps.32319.13850149352717353.64fe5a9b-6264-4e33-9f7c-ca3337ddfe7e.6a702557-cb44-45b1-b415-58af9b7c71af?mode=scale&q=90&h=1080&w=1920",
+                "https://store-images.s-microsoft.com/image/apps.39675.13850149352717353.64fe5a9b-6264-4e33-9f7c-ca3337ddfe7e.7ff6a76c-630a-4b2d-b86f-9cbd3953c853?w=672&h=378&q=80&mode=letterbox&background=%23FFE4E4E4&format=jpg",
+                "https://pbs.twimg.com/media/E_XY7o8XEAknkKu.jpg"
+            ],
+            "desc": "Venge is an objective-based first-person shooter. Every match is an intense unique experience with the ability cards that you can get in the game.",
+            "feat": " Fast matches\nOnline community\nFirst person shoter"
+        }
+    },
+    {
+        "name": "JS Paint",
+        "icon": "https://raw.githubusercontent.com/1j01/jspaint/master/images/icons/96x96.png",
+        "type": "app",
+        "data": {
+            "type": "IFrame",
+            "url": "https://jspaint.app",
+            "gallery": [
+                "https://raw.githubusercontent.com/1j01/jspaint/master/images/meta/main-screenshot.png",
+                "https://repository-images.githubusercontent.com/16602433/6d236580-dcad-11e9-8e28-516524888463",
+                "https://ourcodeworld.com/public-media/articles/articleocw-5a6788d6906b2.png"
+            ],
+            "desc": "JS Paint is a web-based remake of MS Paint by Isaiah Odhner.\nThe goal is to remake MS Paint (including its little-known features), improve on it, and to extend the types of images it can edit. So far, it does this pretty well.",
+            "feat": "Texture painting.\nDrag n drop.\nDigital Painting.\nKid friendly.\nBrowser based.\nWeb-Based."
+        }
+    },
+    {
+        "name": "Soltaire",
+        "icon": "https://images.all-free-download.com/images/graphiclarge/spider_solitaire_37215.jpg",
+        "type": "game",
+        "data": {
+            "type": "IFrame",
+            "url": "https://www.squidbyte.com/games/spidersolitairewindowsxp",
+            "gallery": [
+                "https://www.freecell.io/uploads/games/icons/freecellio/spider-solitaire-windows-xp.jpg",
+                "https://i.pinimg.com/originals/da/fb/51/dafb514c4185b9349a1ec3de54e2ae33.png",
+                "https://upload.wikimedia.org/wikipedia/en/7/77/Spider_Solitaire_7.png"
+            ],
+            "desc": "Spider Solitaire is a solitaire card game. As of 2005, it was the most played game on Windows PCs, surpassing the shorter and less challenging Klondike-based Windows Solitaire.",
+            "feat": "Play and win"
+        }
+    },
+    {
+        "name": "Super Mario Bros.",
+        "icon": "https://icons.iconarchive.com/icons/ph03nyx/super-mario/128/Retro-Mario-icon.png",
+        "type": "game",
+        "data": {
+            "type": "IFrame",
+            "url": "https://supermario-game.com/mario-game/mario.html",
+            "gallery": [
+                "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Mario_Series_Logo.svg/1200px-Mario_Series_Logo.svg.png",
+                "https://cdn.vox-cdn.com/thumbor/q86cfIgaaRxt7n5UG2iQEGx4Gls=/0x84:1024x767/1400x1050/filters:focal(0x84:1024x767):format(png)/cdn.vox-cdn.com/uploads/chorus_image/image/47185140/OZJlR3q.0.0.png",
+                "https://i.ytimg.com/vi/cWOkHQXw0JQ/maxresdefault.jpg",
+                "https://cdn.wionews.com/sites/default/files/styles/story_page/public/2020/10/02/162864-mario.jpg"
+            ],
+            "desc": " Italian plumber Mario and his twin brother Luigi exterminate creatures emerging from the sewers by knocking them upside-down and kicking them away",
+            "feat": "Mario Bros. is a 1983 platform game developed and published for arcades by Nintendo"
+        }
+    },
+    {
+        "name": "Photopea",
+        "icon": "https://raw.githubusercontent.com/cupofcoffebruh/Binbows11-copy/main/Icons/photopea%20(1).png",
+        "type": "app",
+        "data": {
+            "type": "IFrame",
+            "url": "https://www.photopea.com/",
+            "gallery": [
+                "https://lh3.googleusercontent.com/5WaMV4oSbcLQxOLsBKymdaprEij5t38HabZbqHFe2lLMatTjn3Av-Ewf3wv9NynaU2hahYh6FHNRkAMcjF29l2kWz9Y=w640-h400-e365-rj-sc0x00ffffff",
+                "https://imag.malavida.com/mvimgbig/download-fs/photopea-27203-2.jpg",
+                "https://user-images.githubusercontent.com/79121360/112741096-3d56bd00-8f37-11eb-982d-1866764e642c.png"
+            ],
+            "desc": "Photopea is a  Photo Editor lets you edit photos, apply effects, filters, add text, crop or resize pictures, it can used for complex projects or just some photos",
+            "feat": "online foto editor easy to use great for anything you want",
+            "invert": true
+        }
+    },
+    {
+        "name": "Wikipedia",
+        "icon": "https://www.wikipedia.org/portal/wikipedia.org/assets/img/Wikipedia-logo-v2.png",
+        "type": "app",
+        "data": {
+            "type": "IFrame",
+            "url": "https://www.wikipedia.org",
+            "gallery": [
+                "https://wikipediaproject.yale.edu/sites/default/files/images/wikipedia-logo-.jpg",
+                "https://upload.wikimedia.org/wikipedia/en/8/8e/EnglishWikipedia_29June2017.png",
+                "https://resize.indiatvnews.com/en/resize/newbucket/1200_-/2020/05/wikipedia-swastha-1588853853.jpg",
+                "https://edtimes.in/wp-content/uploads/2020/08/wikipedia-india-money-min-768x511.jpg"
+            ],
+            "desc": "Wikipedia is a free online encyclopedia, created and edited by volunteers around the world and hosted by the Wikimedia Foundation",
+            "feat": "free information\nadd information\nedit information"
+        }
+    },
+    {
+        "name": "The Cube",
+        "icon": "https://res.cloudinary.com/tronic247/image/upload/v1635324889/Capture_fbejnp.png",
+        "type": "game",
+        "data": {
+            "type": "IFrame",
+            "url": "https://posandu.github.io/win11appthecube/",
+            "gallery": [
+                "https://res.cloudinary.com/tronic247/image/upload/v1635325215/sdfsdio/1_ienzb4.png",
+                "https://res.cloudinary.com/tronic247/image/upload/v1635325215/sdfsdio/2_colfow.png",
+                "https://res.cloudinary.com/tronic247/image/upload/v1635325215/sdfsdio/3_rjtug8.png",
+                "https://res.cloudinary.com/tronic247/image/upload/v1635325215/sdfsdio/4_suhogq.png"
+            ],
+            "desc": "The Cube is a 3D rubik's puzzle game created by Tronic247. You can now have fun with it.",
+            "feat": "3D Cube game"
+        }
+    },
+    {
+        "name": "Othello",
+        "icon": "https://dl.flathub.org/repo/appstream/x86_64/icons/128x128/org.gnome.Reversi.png",
+        "type": "game",
+        "data": {
+            "type": "IFrame",
+            "url": "https://othello.blueedge.me",
+            "gallery": [
+                "https://raw.githubusercontent.com/blueedgetechno/othello/master/img/view.png",
+                "https://play-lh.googleusercontent.com/InYKAUUjV_I4TJLmmPBi1ystF55XJiQQ6tJiAJdcKkUl3OEdPjKo9P2ioceicWID3oU",
+                "https://www.johnadams.co.uk/wp-content/uploads/2016/07/Othello__0001_9690_Othello_Product_2.png",
+                "https://www.coolmathgames.com/sites/default/files/styles/blog_node_image/public/2020-07/how%20to%20play%20reversi%20thumb.jpg"
+            ],
+            "desc": "Othello(Reversi) is a strategy board game for two players, played on an 8\u00d78 uncheckered board. It was invented in 1883.",
+            "feat": "Board game"
+        }
+    },
+    {
+        "name": "paper.io",
+        "icon": "https://kevin.games/assets/images/games/paper-io-3d.jpg",
+        "type": "game",
+        "data": {
+            "type": "IFrame",
+            "url": "https://paper-io.com",
+            "gallery": [
+                "https://cdn.titotu.io/images/games/paper-io-2-664x374.jpg",
+                "https://media.pocketgamer.com/artwork/na-qhuif/paperio2.jpg",
+                "https://www.touchtapplay.com/wp-content/uploads/2018/09/paper-io-2-cheats-tips-696x362.jpg",
+                "https://img-hws.y8.com/cloud/v2-y8-thumbs-video-thumbnails-001/281885/video_thumbnail.jpg"
+            ],
+            "desc": "Paper.io 2 is a real-time multiplayer .io game where you have to capture as much territory as possible.\nPaint the map in your own color to take over the Paper.io world! Look out for other players vying to claim your space.",
+            "feat": "Fight and capture"
+        }
+    },
+    {
+        "name": "Flappy bird",
+        "icon": "https://upload.wikimedia.org/wikipedia/en/0/0a/Flappy_Bird_icon.png",
+        "type": "game",
+        "data": {
+            "type": "IFrame",
+            "url": "https://playcanv.as/p/2OlkUaxF",
+            "gallery": [
+                "https://static.keygames.com/2/113722/96298/672x448/flappybird-og.webp",
+                "https://s18798.pcdn.co/shannonhu/wp-content/uploads/sites/19057/2020/10/flappy-bird.jpg",
+                "https://blogs.manageengine.com/wp-content/uploads/2014/02/Flappy-Bird-Teaser.jpg",
+                "https://www.gamerroof.com/wp-content/uploads/2019/05/Flappy-Bird-Full-Version-Free-Download.jpg"
+            ],
+            "desc": "Flappy Bird is a game developed by Vietnamese video game artist and programmer Dong Nguyen, under his game development company .Gears. The game is a side-scroller where the player controls a bird, attempting to fly between columns of green pipes without hitting them.",
+            "feat": "fly, dodge, score"
+        }
+    },
+    {
+        "name": "bluelab",
+        "icon": "https://raw.githubusercontent.com/blueedgetechno/bluelab/master/public/logo192.png",
+        "data": {
+            "type": "IFrame",
+            "url": "https://bluelab.blueedge.me",
+            "gallery": [
+                "https://raw.githubusercontent.com/blueedgetechno/bluelab/master/public/img/invkin.png",
+                "https://raw.githubusercontent.com/blueedgetechno/bluelab/master/public/img/bezcrv.png"
+            ]
+        }
+    },
+    {
+        "name": "HexGL",
+        "icon": "https://hexgl.bkcore.com/image.png",
+        "type": "game",
+        "data": {
+            "type": "IFrame",
+            "url": "https://hexgl.bkcore.com/play/",
+            "gallery": [
+                "https://lh6.ggpht.com/XHZFQMr3IcrX2LEDvxG6olkEVZXrHUS6Qn7LXxPlZkRLTOIMIU1ndoaTc3meZUepka5COLXL7zoS1KqC0uo0IrRaZnUEUd2qTbg"
+            ],
+            "desc": "HexGL is a futuristic, fast-paced racing game built by Thibaut Despoulain using HTML5, Javascript and WebGL and a tribute to the original Wipeout and F-Zero series.",
+            "feat": ""
+        }
+    },
+    {
+        "name": "X Trench Run",
+        "icon": "https://gameforge.com/de-DE/littlegames/includes/images/games/7057_5eb3e9a3795fd.jpg",
+        "type": "game",
+        "data": {
+            "type": "IFrame",
+            "url": "https://d2yh0uqycmhzn9.cloudfront.net/en/x-trench-run/index.html?token=hc8j1DOq1591613358sfaNwz7pYSNRJcAg",
+            "gallery": [
+                "https://i.ytimg.com/vi/R0zAkJMbTpU/mqdefault.jpg",
+                "https://image.yaksgames.com/v2/game/4/1/b/jBaV0W2p2DZLJHp72OSYPNqeYlIOru3QNbcYIj51.jpeg",
+                "https://avatars.mds.yandex.net/get-games/1881364/2a0000016ce14641340667b8d7ad3a2eb747/default526x314"
+            ],
+            "desc": "Shoot down turrets as you fly through the trench avoiding any and all obstacles in this epic 3D space flying game.",
+            "feat": "A cool game"
+        }
+    },
+    {
+        "name": "osu!",
+        "icon": "https://i.ibb.co/k6GWsJn/download.jpg",
+        "type": "game",
+        "data": {
+            "type": "IFrame",
+            "url": "https://webosu.online/",
+            "gallery": [
+                "https://gamefaqs.gamespot.com/a/screen/full/4/0/0/919400.jpg",
+                "https://i.ibb.co/xhfLhWs/Screenshot-2022-01-16-2-16-18-PM.png",
+                "https://www.taminggaming.com/cms/graphics/screen_shot_3459.jpeg"
+            ],
+            "desc": "osu!, is a fun free-to-play rhythm game",
+            "feat": "fun game with alot of beatmaps"
+        }
+    },
+    {
+        "name": "Dash Clicker",
+        "icon": "https://i.ibb.co/bBh4kYJ/71b457bd-14f4-4768-b34b-c9097fc94ad8.jpg",
+        "type": "game",
+        "data": {
+            "type": "IFrame",
+            "url": "https://dashclicker.com/",
+            "gallery": [
+                "https://raw.githubusercontent.com/armn/Dashclicker/master/src/assets/images/screenshot.png",
+                "https://preview.redd.it/qq3wou3zpcp71.png?width=1366&format=png&auto=webp&s=418ba40fba2f64f5b5ab84be23fdbfec86749528",
+                "https://i.redd.it/xnrak7gpfds31.png"
+            ],
+            "desc": "A clicker game for nerds",
+            "feat": "A clicker game for nerds"
+        }
+    },
+    {
+        "name": "Spider",
+        "icon": "https://raw.githubusercontent.com/RedEdge967/Spider-Man/master/images/spider-head.png",
+        "type": "game",
+        "data": {
+            "type": "IFrame",
+            "url": "https://rededge967.github.io/Spider-Man",
+            "gallery": [
+                "https://raw.githubusercontent.com/RedEdge967/Spider-Man/master/images/standing.png"
+            ],
+            "desc": "Your friendly neighbourhood Spiderman ...",
+            "feat": "1. Jump and shoot.\n2. Progress",
+            "invert": true
+        }
+    },
+    {
+        "name": "Scratch",
+        "icon": "https://llk.github.io/scratch-gui/master/static/favicon.ico",
+        "type": "app",
+        "data": {
+            "type": "IFrame",
+            "url": "https://llk.github.io/scratch-gui/master/",
+            "gallery": [
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQoPckz603CcUVyrUwDAX04l7OXMpKZQXI4QUr9P5_UMas37EMmrSUNn9JgK5Yzz0R8Kw&usqp=CAU",
+                "https://www.researchgate.net/profile/Robert-Morris-5/publication/228389474/figure/fig2/AS:393642368880642@1470863062228/A-screenshot-of-the-Scratch-programming-blocks.png",
+                "https://techcrunch.com/wp-content/uploads/2019/01/ProjectEditor.png?w=430&h=230&crop=1"
+            ],
+            "desc": "Scratch is a high-level block-based visual programming language and website targeted primarily at children 8\u201316 as an educational tool for programming. ",
+            "feat": "Users on the site, called Scratchers, can create projects on the website using a block-like interface."
+        }
+    },
+    {
+        "name": "Doom2",
+        "icon": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxQSEhUSExIWFRUXGBkaFxUYFx0bGhobFxcaIRcYGhcbHSgiGB0lHRcYITEhJSkrLi4uGB8zODMsNyotLisBCgoKDg0OGxAQGy0lICUvLTIvLS0wLzUtLS0tLS0yLS0tLS8vLS0tMC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLf/AABEIAOEA4QMBIgACEQEDEQH/xAAcAAEAAgMBAQEAAAAAAAAAAAAABQcDBAYBAgj/xABVEAABAwIDBAUGCAgJCwUBAAABAAIRAwQSITEFBkFREyJhcZEHMoGhsdEUI0JSU2LB8BUWJHKSorLSM2RzgoOUwtPhJTVDRVRjdJOjw/FEVYSz4hf/xAAaAQEAAgMBAAAAAAAAAAAAAAAABAUBAgMG/8QAPREAAQMBBAcGAgkEAgMAAAAAAQACEQMEEiFRBRMxQWGRoXGBscHR8CJSFCMyQmKSwtLhcoKisgbiMzRz/9oADAMBAAIRAxEAPwC8URERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERaO0Np0qABrVAwHIF2QJ5TpPYgBOAWCQBJW8iiW7xWx0rNPivr8PW/0o9a6amp8p5FcvpNH52/mHqpRFGHblv8ASt9aDbtv9M31pqqnynkU+kUfnbzCk0WjZbTo1i5tOqx5bk4Agkd44LeWhBBgrqCCJCItDaG1aNDD01VlPEYbiMSsX4wW30zfWshjnfZBK1dUY37RA7SFKIo5u26B0qtKfhqh9KPWs6p/ynktdfS+YcwpFFGW+27d1Tom1ml8ThnNSa1IIMFdAQ4SDKItC82rRpODX1GtcROGc45xyXx+HKH0o8D7lkU3kSAeS0dVptMOcAe0KSRRv4bofSDwK8dtygNao8He5Z1b/lPIrGvpfOOY9VJotHZ+1KNeeiqNfGoBzHeF83m16NJwY+oGuInDxjnAWoBJgDFdC4ASTgpBFF/h63+l/Vd7l4dv2/0h/Rf7ltq3/KeS56+l87eY9VKotW0vGVRNNwcJg9hGoIOi17rbNCm7A6oMQ1aMyO8DRagEmF0LgBJOCkkUV+MFv88/oP8A3V5+MFv88/oP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WPaGtMHMCHmdZiNJW7+Jo/2+0/rDF8ncwEg/hC0yMj8pZ7locdvgfRbjCdn5m/uV+bn7dbe2zKwOZHWHIjUegqeVO+TKnUs65pivb1aVTVtKsKha4fKgaAjLPkFcSLb3uPgiIiIiIiIqm8pPkz6YuubXq1cy5vB/ud2qmaT30amFwdTqMPaHNI0I4gjmv1+uD3+8nlG+aajBgrgdV49hHELm+nOxSaNoLcHYjwXKbn7/ADa8UbxwZVjCy40Y/kKo0afrad3HubRpZXpBwiMTRxBBALSDxybHoX552nZ1rKqaNwwtI0PAjm08Qu03H3uryy2INamCMB+VSjk7i3hhPPKIhVTbEGWhtRogzzwIPQnh2KVVDTSN04eGUH1X6ARRXw13zSiuVWKSqMDhBEgqB2fuha0arqrKTQXGTA4niuhREXgC9RERERERERERchv9uazaFNvyajDLXDXPUdx+xV67yTXEYcYV4otg4jYubqTHGXBUUPJDXmS+fUvD5Ibj6TLX7lXsiX3ZpqmZKi//AORV+D4XjfJBXA8/1q9UWb7s1jUsyVFM8kNcHz5X2fJLcT57e6FeSJrHZoaLDuVGHySXHzwvT5JLj54V5Imsdmmop5LhdwdxxZS98F54rukRaLoAAICIiIsoiIiIiIiLnN7d06F/SLKrBPyXaEHmDwWjuduJRsRkA53M6967FEWZMQvnAOSL6RFhERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERf//Z",
+        "type": "app",
+        "data": {
+            "type": "IFrame",
+            "url": "url-here",
+            "gallery": [
+                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQoPckz603CcUVyrUwDAX04l7OXMpKZQXI4QUr9P5_UMas37EMmrSUNn9JgK5Yzz0R8Kw&usqp=CAU",
+                "https://www.researchgate.net/profile/Robert-Morris-5/publication/228389474/figure/fig2/AS:393642368880642@1470863062228/A-screenshot-of-the-Scratch-programming-blocks.png",
+                "https://techcrunch.com/wp-content/uploads/2019/01/ProjectEditor.png?w=430&h=230&crop=1"
+            ],
+            "desc": "Scratch is a high-level block-based visual programming language and website targeted primarily at children 8\u00e2\u20ac\u201c16 as an educational tool for programming. ",
+            "feat": "Users on the site, called Scratchers, can create projects on the website using a block-like interface."
+        },
+        "url": "https://melonicoverlord.github.io/aeughweb/",
+        "Type": "game",
+        "data, url": "https://archive.org/embed/Doom-2",
+        "data, Type": "game"
     }
-  },
-  {
-    "name": "Minecraft",
-    "icon": "https://raw.githubusercontent.com/win11react/store/main/store/img/minecraft.png",
-    "type": "game",
-    "data": {
-      "type": "IFrame",
-      "url": "https://classic.minecraft.net",
-      "gallery": [
-        "https://www.minecraft.net/content/dam/games/minecraft/key-art/CavesandCliffsPt1-dotNET-HomepagePromo-600x360.png",
-        "https://variety.com/wp-content/uploads/2019/02/minecraft-best-year-yet.png?w=600",
-        "https://www.minecraft.net/content/dam/games/minecraft/screenshots/RayTracing-MineCraft-PMP-Always-Something-New.jpg"
-      ],
-      "desc": "Minecraft is a sandbox construction video game developed by Mojang Studios where players interact with a fully modifiable three-dimensional environment made of blocks and entities.\nIts diverse gameplay lets players choose the way they play, allowing for countless possibilities. There are three actively maintained editions of Minecraft: Java Edition, Bedrock Edition, and Education Edition.",
-      "feat": "1.1 Combat changes.\n1.2 Fletching table functionality.\n1.3 Voted updates.\n1.4 Super Fancy graphics.\n1.5 Phasing out of NBT-based crafting recipes.\n1.6 Full split of liquids from blocks.\n1.7 Shaders.\n1.8 Archaeology."
-    }
-  },
-  {
-    "name": "Candy Crush",
-    "icon": "https://cdn2.downdetector.com/static/uploads/logo/mzl.ehlcwpta.png",
-    "type": "game",
-    "data": {
-      "type": "IFrame",
-      "url": "https://svelte-candy-crush.vercel.app/",
-      "gallery": [
-        "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/newscms/2014_04/133241/candy-crush-saga-screenshot-01.jpg",
-        "https://www.mobygames.com/images/shots/l/628983-candy-crush-saga-android-screenshot-the-chocolate-candy-covered.jpg",
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKPaARKhM6RGzdTQi0YwqKHZmm_eNxUn2Emw&usqp=CAU"
-      ],
-      "desc": "Candy Crush Saga is a free-to-play match-three puzzle video game released by King on April 12, 2012,",
-      "feat": "Candy beans."
-    }
-  },  
-  {
-    "name": "windows96",
-    "icon": "https://i.redd.it/kksrotgwyya61.png",
-    "type": "app",
-    "data": {
-      "type": "IFrame",
-      "url": "https://windows96.net/",
-      "gallery": [
-        "https://static.wikia.nocookie.net/windows/images/8/80/W98-2.png/revision/latest?cb=20191005212338",
-        "https://www.extremetech.com/wp-content/uploads/2017/02/win98-640x353.jpg",
-        "https://support.brother.com/g/b/img/faqend/faqh00000051_000/gb/en/5425/faqh000051_05.jpg"
-      ],
-      "desc": "Windows 96 recreation",
-      "feat": "The os older then your mother."
-    }
-  },
-  {
-    "name": "Python Compiler",
-    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png",
-    "type": "app",
-    "data": {
-      "type": "IFrame",
-      "url": "https://www.programiz.com/python-programming/online-compiler/",
-      "gallery": [
-        "https://cdn.programiz.com/cdn/farfuture/IwFGGPqycIxTfzLl7mPdcaqUaircnStXfipaHd4EBik/mtime:1605833048/sites/all/themes/programiz/assets/compiler.png",
-        "https://www.programiz.com/blog/content/images/2020/07/programiz-online-compiler.png"
-
-      ],
-      "desc": "Compile Python"
-
-
-    }
-  },
-  {
-    "name": "Google Cricket",
-    "icon": "https://www.businessinsider.in/photo/75425726/how-to-play-cricket-on-google.jpg?imgsize=138543",
-    "type": "app",
-    "data": {
-      "type": "IFrame",
-      "url": "https://doodlecricket.github.io/#/",
-      "gallery": [
-        "https://www.businessinsider.in/photo/75425726/how-to-play-cricket-on-google.jpg?imgsize=138543",
-        "https://www.google.com/logos/doodles/2017/icc-champions-trophy-2017-begins-5642111205507072.6-lawcta.gif",
-        "https://i.ytimg.com/vi/Ud9Ts_NYAjQ/maxresdefault.jpg"
-      ],
-      "desc": "Playing Cricket in online",
-      "feat": "virtual cricket"
-
-    }
-  },
-  {
-    "name": "Excel",
-    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Microsoft_Office_Excel_%282019%E2%80%93present%29.svg/826px-Microsoft_Office_Excel_%282019%E2%80%93present%29.svg.png",
-    "type": "app",
-    "data": {
-      "type": "IFrame",
-      "url": "https://win.asylum-os.com/data/excel.html",
-      "gallery": [
-        "https://www.techrepublic.com/a/hub/i/r/2019/05/31/b9b3ae1d-6799-4118-8bcf-2bc3747c018f/resize/1200x/04c6599c3bc58330bd3350dd77984274/figure-b.jpg",
-        "https://www.smartsheet.com/sites/default/files/IC-how-to-make-spreadsheet-11%20copy.jpg",
-        "https://www.techrepublic.com/a/hub/i/r/2021/05/17/0fda89a7-51a1-4ef2-9c66-d492f21b4254/resize/1200x/89b7448d974ce30168eb278f5230b2a4/excel-spreadsheet.jpg"
-      ],
-      "desc": "Microsoft Excel is a spreadsheet developed by Microsoft for Windows, macOS, Android and iOS. It features calculation, graphing tools, pivot tables",
-      "feat": "graphing tools"
-    }
-  },
-  {
-    "name": "Word",
-    "icon": "https://raw.githubusercontent.com/win11react/store/main/store/img/word.svg",
-    "type": "app",
-    "data": {
-      "type": "IFrame",
-      "url": "https://win.asylum-os.com/data/word.html",
-      "gallery": [
-        "https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4r1GB",
-        "https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4qsko",
-        "https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4qiBY"
-      ],
-      "desc": "Microsoft Word is a word processing software developed by Microsoft. It was first released on October 25, 1983, under the name Multi-Tool Word for Xenix systems",
-      "feat": "word processing"
-    }
-  },
-  {
-    "name": "Shell Shockers",
-    "icon": "https://play-lh.googleusercontent.com/P-nde227L29s8w5U44kTPLiEnMEJUhJpEr4jL6tD6LV65Xz0JZtI4wEyFN-smsNrx-Q",
-    "type": "game",
-    "data": {
-      "type": "IFrame",
-      "url": "https://eggcombat.com/",
-      "gallery": [
-        "https://images.crazygames.com/shellshockersio/20211202050253/shellshockersio-cover",
-        "https://play-lh.googleusercontent.com/vL0-VAubTWhJs4buUsPBJmPPF3469eT45CdMIZZVEf54D-Ko_2uvxC4qZUD_LKuhnaw=w412-h220-rw",
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeJNXXZ7sWn-5QK2_A5V9CHHaXR-fc6G7UBw&usqp=CAU"
-      ],
-      "desc": "3D multiplayer egg-based shooter.",
-      "feat": "Fried Eggs, Anyone?"
-    }
-  },
-  {
-    "name": "2048",
-    "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/2048_logo.svg/100px-2048_logo.svg.png",
-    "type": "game",
-    "data": {
-      "type": "IFrame",
-      "url": "https://glebbahmutov.com/2048/",
-      "gallery": [
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/2048_win.png/495px-2048_win.png",
-        "https://i1.wp.com/itsfoss.com/wp-content/uploads/2018/07/play-2048-game-linux.jpeg",
-        "https://elgoog.im/2048/2048-game.png"
-      ],
-      "desc": "2048 is a single-player sliding tile puzzle video game written by Italian web developer Gabriele Cirulli and published on GitHub.",
-      "feat": "1. Single player game.\n2. Genre: Puzzle"
-    }
-  },
-  {
-    "name": "Smash karts",
-    "icon": "https://api.web.gamepix.com/assets/img/250/250/icon/smash-karts.png",
-    "type": "game",
-    "data": {
-      "type": "IFrame",
-      "url": "https://smashkarts.io",
-      "gallery": [
-        "https://static.gogy.com/ogimages/smashkarts-io.jpg",
-        "https://yt3.ggpht.com/f4e3X0TDQ6edrwk29w6pBgxLdTnNUvZdBkDGDO0zqlWXY6NGVjdDvlTKhyg4apwjykBu-hSGuw=s900-c-k-c0x00ffffff-no-rj",
-        "https://c.tenor.com/OOAB3Zw9lWsAAAAd/smash-karts-you-win.gif",
-        "https://cdn.titotu.io/images/games/smash-karts-631x355.jpg"
-      ],
-      "desc": "Smash Karts is a free io Multiplayer Kart Battle Arena game.\nIt is a three-dimensional multiplayer kart racing game. To win, you must drive your go-kart, pick up weaponry, and blow up other karts.",
-      "feat": "Drive fast\nFire rockets\nMake big explosions"
-    }
-  },
-  {
-    "name": "Krunker",
-    "icon": "https://krunker.io/img/newp.png",
-    "type": "game",
-    "data": {
-      "type": "IFrame",
-      "url": "https://krunker.io",
-      "invert": true,
-      "gallery": [
-        "https://cdn.akamai.steamstatic.com/steam/apps/1408720/capsule_616x353.jpg",
-        "https://i.redd.it/1oylfyu4giw21.png",
-        "https://d326lupd521z61.cloudfront.net/uploads/webp/images/krunker-.io.webp",
-        "https://www.mejoress.com/en/wp-content/uploads/Krunker-Aimbot-Hacks.jpg.webp"
-      ],
-      "desc": "Krunker.io is a fast-paced pixelated first-person shooter.\nIn this browser game, players drop into a pixelated world and fight against other players from around the world",
-      "feat": "Shooter Video Game\nBrowser game\nCasual game\nFree to Play"
-    }
-  },
-  {
-    "name": "Venge",
-    "icon": "https://venge.io/favicon-96x96.png",
-    "type": "game",
-    "data": {
-      "type": "IFrame",
-      "url": "https://venge.io/",
-      "invert": true,
-      "gallery": [
-        "https://images.crazygames.com/venge-io/20200822084809/venge-io-cover?auto=format,compress&q=75&cs=strip&ch=DPR&w=1200&h=630&fit=crop",
-        "https://store-images.s-microsoft.com/image/apps.32319.13850149352717353.64fe5a9b-6264-4e33-9f7c-ca3337ddfe7e.6a702557-cb44-45b1-b415-58af9b7c71af?mode=scale&q=90&h=1080&w=1920",
-        "https://store-images.s-microsoft.com/image/apps.39675.13850149352717353.64fe5a9b-6264-4e33-9f7c-ca3337ddfe7e.7ff6a76c-630a-4b2d-b86f-9cbd3953c853?w=672&h=378&q=80&mode=letterbox&background=%23FFE4E4E4&format=jpg",
-        "https://pbs.twimg.com/media/E_XY7o8XEAknkKu.jpg"
-      ],
-      "desc": "Venge is an objective-based first-person shooter. Every match is an intense unique experience with the ability cards that you can get in the game.",
-      "feat": " Fast matches\nOnline community\nFirst person shoter"
-    }
-  },
-  {
-    "name": "JS Paint",
-    "icon": "https://raw.githubusercontent.com/1j01/jspaint/master/images/icons/96x96.png",
-    "type": "app",
-    "data": {
-      "type": "IFrame",
-      "url": "https://jspaint.app",
-      "gallery": [
-        "https://raw.githubusercontent.com/1j01/jspaint/master/images/meta/main-screenshot.png",
-        "https://repository-images.githubusercontent.com/16602433/6d236580-dcad-11e9-8e28-516524888463",
-        "https://ourcodeworld.com/public-media/articles/articleocw-5a6788d6906b2.png"
-      ],
-      "desc": "JS Paint is a web-based remake of MS Paint by Isaiah Odhner.\nThe goal is to remake MS Paint (including its little-known features), improve on it, and to extend the types of images it can edit. So far, it does this pretty well.",
-      "feat": "Texture painting.\nDrag n drop.\nDigital Painting.\nKid friendly.\nBrowser based.\nWeb-Based."
-    }
-  },
-  {
-    "name": "Soltaire",
-    "icon": "https://images.all-free-download.com/images/graphiclarge/spider_solitaire_37215.jpg",
-    "type": "game",
-    "data": {
-      "type": "IFrame",
-      "url": "https://www.squidbyte.com/games/spidersolitairewindowsxp",
-      "gallery": [
-        "https://www.freecell.io/uploads/games/icons/freecellio/spider-solitaire-windows-xp.jpg",
-        "https://i.pinimg.com/originals/da/fb/51/dafb514c4185b9349a1ec3de54e2ae33.png",
-        "https://upload.wikimedia.org/wikipedia/en/7/77/Spider_Solitaire_7.png"
-      ],
-      "desc": "Spider Solitaire is a solitaire card game. As of 2005, it was the most played game on Windows PCs, surpassing the shorter and less challenging Klondike-based Windows Solitaire.",
-      "feat": "Play and win"
-    }
-  },
-  {
-    "name": "Super Mario Bros.",
-    "icon": "https://icons.iconarchive.com/icons/ph03nyx/super-mario/128/Retro-Mario-icon.png",
-    "type": "game",
-    "data": {
-      "type": "IFrame",
-      "url": "https://supermario-game.com/mario-game/mario.html",
-      "gallery": [
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Mario_Series_Logo.svg/1200px-Mario_Series_Logo.svg.png",
-        "https://cdn.vox-cdn.com/thumbor/q86cfIgaaRxt7n5UG2iQEGx4Gls=/0x84:1024x767/1400x1050/filters:focal(0x84:1024x767):format(png)/cdn.vox-cdn.com/uploads/chorus_image/image/47185140/OZJlR3q.0.0.png",
-        "https://i.ytimg.com/vi/cWOkHQXw0JQ/maxresdefault.jpg",
-        "https://cdn.wionews.com/sites/default/files/styles/story_page/public/2020/10/02/162864-mario.jpg"
-      ],
-      "desc": " Italian plumber Mario and his twin brother Luigi exterminate creatures emerging from the sewers by knocking them upside-down and kicking them away",
-      "feat": "Mario Bros. is a 1983 platform game developed and published for arcades by Nintendo"
-    }
-  },
-  {
-    "name": "Photopea",
-    "icon": "https://raw.githubusercontent.com/cupofcoffebruh/Binbows11-copy/main/Icons/photopea%20(1).png",
-    "type": "app",
-    "data": {
-      "type": "IFrame",
-      "url": "https://www.photopea.com/",
-      "gallery": [
-        "https://lh3.googleusercontent.com/5WaMV4oSbcLQxOLsBKymdaprEij5t38HabZbqHFe2lLMatTjn3Av-Ewf3wv9NynaU2hahYh6FHNRkAMcjF29l2kWz9Y=w640-h400-e365-rj-sc0x00ffffff",
-        "https://imag.malavida.com/mvimgbig/download-fs/photopea-27203-2.jpg",
-        "https://user-images.githubusercontent.com/79121360/112741096-3d56bd00-8f37-11eb-982d-1866764e642c.png"
-      ],
-      "desc": "Photopea is a  Photo Editor lets you edit photos, apply effects, filters, add text, crop or resize pictures, it can used for complex projects or just some photos",
-      "feat": "online foto editor easy to use great for anything you want",
-      "invert": true
-    }
-  },
-  {
-    "name": "Wikipedia",
-    "icon": "https://www.wikipedia.org/portal/wikipedia.org/assets/img/Wikipedia-logo-v2.png",
-    "type": "app",
-    "data": {
-      "type": "IFrame",
-      "url": "https://www.wikipedia.org",
-      "gallery": [
-        "https://wikipediaproject.yale.edu/sites/default/files/images/wikipedia-logo-.jpg",
-        "https://upload.wikimedia.org/wikipedia/en/8/8e/EnglishWikipedia_29June2017.png",
-        "https://resize.indiatvnews.com/en/resize/newbucket/1200_-/2020/05/wikipedia-swastha-1588853853.jpg",
-        "https://edtimes.in/wp-content/uploads/2020/08/wikipedia-india-money-min-768x511.jpg"
-      ],
-      "desc": "Wikipedia is a free online encyclopedia, created and edited by volunteers around the world and hosted by the Wikimedia Foundation",
-      "feat": "free information\nadd information\nedit information"
-    }
-  },
-  {
-    "name": "The Cube",
-    "icon": "https://res.cloudinary.com/tronic247/image/upload/v1635324889/Capture_fbejnp.png",
-    "type": "game",
-    "data": {
-      "type": "IFrame",
-      "url": "https://posandu.github.io/win11appthecube/",
-      "gallery": [
-        "https://res.cloudinary.com/tronic247/image/upload/v1635325215/sdfsdio/1_ienzb4.png",
-        "https://res.cloudinary.com/tronic247/image/upload/v1635325215/sdfsdio/2_colfow.png",
-        "https://res.cloudinary.com/tronic247/image/upload/v1635325215/sdfsdio/3_rjtug8.png",
-        "https://res.cloudinary.com/tronic247/image/upload/v1635325215/sdfsdio/4_suhogq.png"
-      ],
-      "desc": "The Cube is a 3D rubik's puzzle game created by Tronic247. You can now have fun with it.",
-      "feat": "3D Cube game"
-    }
-  },
-  {
-    "name": "Othello",
-    "icon": "https://dl.flathub.org/repo/appstream/x86_64/icons/128x128/org.gnome.Reversi.png",
-    "type": "game",
-    "data": {
-      "type": "IFrame",
-      "url": "https://othello.blueedge.me",
-      "gallery": [
-        "https://raw.githubusercontent.com/blueedgetechno/othello/master/img/view.png",
-        "https://play-lh.googleusercontent.com/InYKAUUjV_I4TJLmmPBi1ystF55XJiQQ6tJiAJdcKkUl3OEdPjKo9P2ioceicWID3oU",
-        "https://www.johnadams.co.uk/wp-content/uploads/2016/07/Othello__0001_9690_Othello_Product_2.png",
-        "https://www.coolmathgames.com/sites/default/files/styles/blog_node_image/public/2020-07/how%20to%20play%20reversi%20thumb.jpg"
-      ],
-      "desc": "Othello(Reversi) is a strategy board game for two players, played on an 8×8 uncheckered board. It was invented in 1883.",
-      "feat": "Board game"
-    }
-  },
-  {
-    "name": "paper.io",
-    "icon": "https://kevin.games/assets/images/games/paper-io-3d.jpg",
-    "type": "game",
-    "data": {
-      "type": "IFrame",
-      "url": "https://paper-io.com",
-      "gallery": [
-        "https://cdn.titotu.io/images/games/paper-io-2-664x374.jpg",
-        "https://media.pocketgamer.com/artwork/na-qhuif/paperio2.jpg",
-        "https://www.touchtapplay.com/wp-content/uploads/2018/09/paper-io-2-cheats-tips-696x362.jpg",
-        "https://img-hws.y8.com/cloud/v2-y8-thumbs-video-thumbnails-001/281885/video_thumbnail.jpg"
-      ],
-      "desc": "Paper.io 2 is a real-time multiplayer .io game where you have to capture as much territory as possible.\nPaint the map in your own color to take over the Paper.io world! Look out for other players vying to claim your space.",
-      "feat": "Fight and capture"
-    }
-  },
-  {
-    "name": "Flappy bird",
-    "icon": "https://upload.wikimedia.org/wikipedia/en/0/0a/Flappy_Bird_icon.png",
-    "type": "game",
-    "data": {
-      "type": "IFrame",
-      "url": "https://playcanv.as/p/2OlkUaxF",
-      "gallery": [
-        "https://static.keygames.com/2/113722/96298/672x448/flappybird-og.webp",
-        "https://s18798.pcdn.co/shannonhu/wp-content/uploads/sites/19057/2020/10/flappy-bird.jpg",
-        "https://blogs.manageengine.com/wp-content/uploads/2014/02/Flappy-Bird-Teaser.jpg",
-        "https://www.gamerroof.com/wp-content/uploads/2019/05/Flappy-Bird-Full-Version-Free-Download.jpg"
-      ],
-      "desc": "Flappy Bird is a game developed by Vietnamese video game artist and programmer Dong Nguyen, under his game development company .Gears. The game is a side-scroller where the player controls a bird, attempting to fly between columns of green pipes without hitting them.",
-      "feat": "fly, dodge, score"
-    }
-  },
-  {
-    "name": "bluelab",
-    "icon": "https://raw.githubusercontent.com/blueedgetechno/bluelab/master/public/logo192.png",
-    "data": {
-      "type": "IFrame",
-      "url": "https://bluelab.blueedge.me",
-      "gallery": [
-        "https://raw.githubusercontent.com/blueedgetechno/bluelab/master/public/img/invkin.png",
-        "https://raw.githubusercontent.com/blueedgetechno/bluelab/master/public/img/bezcrv.png"
-      ]
-    }
-  },
-  {
-    "name": "HexGL",
-    "icon": "https://hexgl.bkcore.com/image.png",
-    "type": "game",
-    "data": {
-      "type": "IFrame",
-      "url": "https://hexgl.bkcore.com/play/",
-      "gallery": [
-        "https://lh6.ggpht.com/XHZFQMr3IcrX2LEDvxG6olkEVZXrHUS6Qn7LXxPlZkRLTOIMIU1ndoaTc3meZUepka5COLXL7zoS1KqC0uo0IrRaZnUEUd2qTbg"
-      ],
-      "desc": "HexGL is a futuristic, fast-paced racing game built by Thibaut Despoulain using HTML5, Javascript and WebGL and a tribute to the original Wipeout and F-Zero series.",
-      "feat": ""
-    }
-  },
-  {
-    "name": "X Trench Run",
-    "icon": "https://gameforge.com/de-DE/littlegames/includes/images/games/7057_5eb3e9a3795fd.jpg",
-    "type": "game",
-    "data": {
-      "type": "IFrame",
-      "url": "https://d2yh0uqycmhzn9.cloudfront.net/en/x-trench-run/index.html?token=hc8j1DOq1591613358sfaNwz7pYSNRJcAg",
-      "gallery": [
-        "https://i.ytimg.com/vi/R0zAkJMbTpU/mqdefault.jpg",
-        "https://image.yaksgames.com/v2/game/4/1/b/jBaV0W2p2DZLJHp72OSYPNqeYlIOru3QNbcYIj51.jpeg",
-        "https://avatars.mds.yandex.net/get-games/1881364/2a0000016ce14641340667b8d7ad3a2eb747/default526x314"
-      ],
-      "desc": "Shoot down turrets as you fly through the trench avoiding any and all obstacles in this epic 3D space flying game.",
-      "feat": "A cool game"
-    }
-  },
-  {
-    "name": "osu!",
-    "icon": "https://i.ibb.co/k6GWsJn/download.jpg",
-    "type": "game",
-    "data": {
-      "type": "IFrame",
-      "url": "https://webosu.online/",
-      "gallery": [
-        "https://gamefaqs.gamespot.com/a/screen/full/4/0/0/919400.jpg",
-        "https://i.ibb.co/xhfLhWs/Screenshot-2022-01-16-2-16-18-PM.png",
-        "https://www.taminggaming.com/cms/graphics/screen_shot_3459.jpeg"
-      ],
-      "desc": "osu!, is a fun free-to-play rhythm game",
-      "feat": "fun game with alot of beatmaps"
-    }
-  },
-  {
-    "name": "Dash Clicker",
-    "icon": "https://i.ibb.co/bBh4kYJ/71b457bd-14f4-4768-b34b-c9097fc94ad8.jpg",
-    "type": "game",
-    "data": {
-      "type": "IFrame",
-      "url": "https://dashclicker.com/",
-      "gallery": [
-        "https://raw.githubusercontent.com/armn/Dashclicker/master/src/assets/images/screenshot.png",
-        "https://preview.redd.it/qq3wou3zpcp71.png?width=1366&format=png&auto=webp&s=418ba40fba2f64f5b5ab84be23fdbfec86749528",
-        "https://i.redd.it/xnrak7gpfds31.png"
-      ],
-      "desc": "A clicker game for nerds",
-      "feat": "A clicker game for nerds"
-    }
-  },
-  {
-    "name": "Spider",
-    "icon": "https://raw.githubusercontent.com/RedEdge967/Spider-Man/master/images/spider-head.png",
-    "type": "game",
-    "data": {
-      "type": "IFrame",
-      "url": "https://rededge967.github.io/Spider-Man",
-      "gallery": [
-        "https://raw.githubusercontent.com/RedEdge967/Spider-Man/master/images/standing.png"
-      ],
-      "desc": "Your friendly neighbourhood Spiderman ...",
-      "feat": "1. Jump and shoot.\n2. Progress",
-      "invert": true
-    }
-  },
-  {
-    "name": "Scratch",
-    "icon": "https://llk.github.io/scratch-gui/master/static/favicon.ico",
-    "type": "app",
-    "data": {
-      "type": "IFrame",
-      "url": "https://llk.github.io/scratch-gui/master/",
-      "gallery": [
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQoPckz603CcUVyrUwDAX04l7OXMpKZQXI4QUr9P5_UMas37EMmrSUNn9JgK5Yzz0R8Kw&usqp=CAU",
-        "https://www.researchgate.net/profile/Robert-Morris-5/publication/228389474/figure/fig2/AS:393642368880642@1470863062228/A-screenshot-of-the-Scratch-programming-blocks.png",
-        "https://techcrunch.com/wp-content/uploads/2019/01/ProjectEditor.png?w=430&h=230&crop=1"
-      ],
-      "desc": "Scratch is a high-level block-based visual programming language and website targeted primarily at children 8–16 as an educational tool for programming. ",
-      "feat": "Users on the site, called Scratchers, can create projects on the website using a block-like interface."
-    }
-  }
 ]
