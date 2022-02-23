@@ -9,7 +9,7 @@ First, please make sure the site accepts IFrame. You can check this by inserting
 
 #### Either
 
-#### 1. Create an [Issue](https://github.com/win11react/store/issues/new/choose) and follow the given steps
+#### 1. Create an [Issue](https://github.com/win11react/store/issues/new/choose) and follow the given steps. **THIS IS IN BETA**
 
 ### OR
 
