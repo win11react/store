@@ -79,6 +79,20 @@
     }
   },
   {
+    "name": "MDown Editor",
+    "icon": "https://github.com/RedEdge967/mdown-editor/raw/master/favicon.png",
+    "type": "app",
+    "data": {
+      "type": "IFrame",
+      "url": "https://rededge967.github.io/mdown-editor/",
+      "gallery": [
+        "https://user-images.githubusercontent.com/91379432/155248594-05ffaa5e-29d4-4935-b681-ebdfd2ba8796.png"
+      ],
+      "desc": "A free open source markdown editor to play with codes",
+      "feat": "A Markdown playground with a preview panel to play with codes written in JS, HTML5 and CSS3"
+    }
+  },
+  {
     "name": "Google Cricket",
     "icon": "https://www.businessinsider.in/photo/75425726/how-to-play-cricket-on-google.jpg?imgsize=138543",
     "type": "app",
