@@ -463,6 +463,23 @@
       "feat": "A free and open source typing improving software for everyone"
     }
   },
+ {
+  "name": "SimCity",
+  "icon": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/46b63d3c-ae67-464c-9a37-670829b2a157/d5yk93b-dcef5325-d18b-418f-b4ef-f3c1330096fb.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzQ2YjYzZDNjLWFlNjctNDY0Yy05YTM3LTY3MDgyOWIyYTE1N1wvZDV5azkzYi1kY2VmNTMyNS1kMThiLTQxOGYtYjRlZi1mM2MxMzMwMDk2ZmIucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.7efzg-14LxT_OU1pua5GjVxQdPsa4VryZW7nhB-h7aY",
+  "type": "game",
+  "data": {
+    "type": "IFrame",
+    "url": "https://archive.org/embed/msdos_SimCity_Classic_1994",
+    "gallery": [
+      "https://i.ytimg.com/vi/vTHAhpyzkLc/maxresdefault.jpg",
+      "https://images.gog-statics.com/b2318aea1ce9d564af5835b6a91c2615a1722479aed827618207519ef50e5681_product_card_v2_mobile_slider_639.jpg",
+      "https://eaassets-a.akamaihd.net/wwce-hc-aem-dispatcher/eahelp/articles/simcity-buildit/scbi-city-design-challenge-button.jpg"
+    ],
+    "desc": "SimCity Classic game emulated on DOSBOX.",
+    "feat": "MS-DOS Classic version",
+    "invert": false,
+  }
+},
   {
     "name": "Scratch",
     "icon": "https://llk.github.io/scratch-gui/master/static/favicon.ico",
