@@ -296,23 +296,6 @@
     }
   },
   {
-    "name": "The Cube",
-    "icon": "https://res.cloudinary.com/tronic247/image/upload/v1635324889/Capture_fbejnp.png",
-    "type": "game",
-    "data": {
-      "type": "IFrame",
-      "url": "https://posandu.github.io/win11appthecube/",
-      "gallery": [
-        "https://res.cloudinary.com/tronic247/image/upload/v1635325215/sdfsdio/1_ienzb4.png",
-        "https://res.cloudinary.com/tronic247/image/upload/v1635325215/sdfsdio/2_colfow.png",
-        "https://res.cloudinary.com/tronic247/image/upload/v1635325215/sdfsdio/3_rjtug8.png",
-        "https://res.cloudinary.com/tronic247/image/upload/v1635325215/sdfsdio/4_suhogq.png"
-      ],
-      "desc": "The Cube is a 3D rubik's puzzle game created by Tronic247. You can now have fun with it.",
-      "feat": "3D Cube game"
-    }
-  },
-  {
     "name": "Othello",
     "icon": "https://dl.flathub.org/repo/appstream/x86_64/icons/128x128/org.gnome.Reversi.png",
     "type": "game",
