@@ -421,18 +421,32 @@
     }
   },
   {
-    "name": "Spider",
+    "name": "Spider Man",
     "icon": "https://raw.githubusercontent.com/RedEdge967/Spider-Man/master/images/spider-head.png",
     "type": "game",
     "data": {
       "type": "IFrame",
       "url": "https://rededge967.github.io/Spider-Man",
       "gallery": [
-        "https://raw.githubusercontent.com/RedEdge967/Spider-Man/master/images/standing.png"
+        "https://user-images.githubusercontent.com/91379432/155486365-0e2b515d-d90d-4846-aecf-f41b6e307429.png"
       ],
       "desc": "Your friendly neighbourhood Spiderman ...",
-      "feat": "1. Jump and shoot.\n2. Progress",
+      "feat": "1. Jump and shoot.\n2. Fight Villains",
       "invert": true
+    }
+  },
+  {
+    "name": "Keyboard Hero",
+    "icon": "https://www.iconpacks.net/icons/1/free-keyboard-icon-1425-thumb.png",
+    "type": "app",
+    "data": {
+      "type": "IFrame",
+      "url": "https://rededge967.github.io/Keyboard-Hero/",
+      "gallery": [
+        "https://user-images.githubusercontent.com/91379432/147643717-5d033687-bed2-4be4-8bc4-80dca284746d.PNG"
+      ],
+      "desc": "A free typing improving software for everyone",
+      "feat": "A free and open source typing improving software for everyone"
     }
   },
   {
