@@ -1,6 +1,6 @@
 {
-  "name": "Super Smash Aeugh Web",
-  "icon": "https://cdn.discordapp.com/attachments/880568849085374504/945988898406953000/pufferfish.png",
+  "name": "BTCLOD",
+  "icon": "",
   "type": "app",
   "data": {
     "type": "IFrame",
@@ -14,5 +14,7 @@
     "feat": "Users on the site, called Scratchers, can create projects on the website using a block-like interface."
   },
   "url": "https://melonicoverlord.github.io/aeughweb/",
-  "Type": "game"
+  "Type": "game",
+  "data, url": "https://btclod.com/converter-2/",
+  "data, Type": "app"
 }
