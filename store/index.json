@@ -275,6 +275,20 @@
       "feat": "Mario Bros. is a 1983 platform game developed and published for arcades by Nintendo"
     }
   },
+ {
+    "name": "Stick Ninja",
+    "icon": "https://github.com/RedEdge967/stick-ninja/raw/master/logo.png",
+    "type": "game",
+    "data": {
+      "type": "IFrame",
+      "url": "https://rededge967.github.io/stick-ninja/",
+      "gallery": [
+        "https://user-images.githubusercontent.com/91379432/155825068-defa9420-344c-4d88-bae4-0962b039af8a.mp4"
+      ],
+      "desc": "A simple game to have some fun in the boring time",
+      "feat": "A simple canvas ninja game written in html5, css3 and javascript to have some fun in the boring time which can run online same as offline also."
+    }
+  },
   {
     "name": "Photopea",
     "icon": "https://raw.githubusercontent.com/cupofcoffebruh/Binbows11-copy/main/Icons/photopea%20(1).png",
