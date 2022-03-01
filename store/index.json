@@ -374,6 +374,23 @@
       "feat": "fly, dodge, score"
     }
   },
+ {
+  "name": "DeckDeckGo (PowerPoint)",
+  "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Microsoft_Office_PowerPoint_%282019%E2%80%93present%29.svg/128px-Microsoft_Office_PowerPoint_%282019%E2%80%93present%29.svg.png",
+  "type": "app",
+  "data": {
+    "type": "IFrame",
+    "url": "https://app.deckdeckgo.com",
+    "gallery": [
+      "https://www.saashub.com/images/app/screenshots/153/i3djerzu0t57/landing-medium.jpg?1640175500",
+      "https://deckdeckgo.com/assets/meta/deckdeckgo-meta.png",
+      "https://res.cloudinary.com/practicaldev/image/fetch/s--n0jvybn9--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://thepracticaldev.s3.amazonaws.com/i/vetcxggml87chs9toach.png"
+    ],
+    "desc": "DeckDeckGo (PowerPoint) is a slideshow creation app",
+    "feat": "You can make slideshows",
+    "invert": false,
+    }
+  },
   {
     "name": "bluelab",
     "icon": "https://raw.githubusercontent.com/blueedgetechno/bluelab/master/public/logo192.png",
