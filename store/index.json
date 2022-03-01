@@ -389,8 +389,8 @@
     "desc": "DeckDeckGo (PowerPoint) is a slideshow creation app",
     "feat": "You can make slideshows",
     "invert": false,
-  }
-},
+    }
+  },
   {
     "name": "bluelab",
     "icon": "https://raw.githubusercontent.com/blueedgetechno/bluelab/master/public/logo192.png",
