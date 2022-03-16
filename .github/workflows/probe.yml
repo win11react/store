@@ -52,6 +52,20 @@ jobs:
           message: "Thank you for suggesting, ${{ steps.issue-parser.outputs.issueparser_Name }} once approved it will be added. "
           GITHUB_TOKEN: ${{ secrets.BOT }}
           
+      - uses: actions-ecosystem/action-add-labels@v1
+        if: ${{ env.FRAME == 'false' }}
+        with:
+          labels: ready
+          github_token: ${{ secrets.STORE }}
+          
+      - uses: actions-ecosystem/action-add-labels@v1
+        if: ${{ env.FRAME == 'true' }}
+        with:
+          labels: not-supported
+          github_token: ${{ secrets.STORE }}    
+          
+            
+          
 #      - uses: MerthinTechnologies/edit-json-action@v1
 #        if: ${{ env.FRAME == 'false' }}
 #        with:
