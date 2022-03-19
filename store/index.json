@@ -492,6 +492,20 @@
     }
   },
   {
+    "name": "Space Shooter",
+    "icon": "https://bk.ibxk.com.br/2018/1/programas/15961511160455574.png",
+    "type": "game",
+    "data": {
+      "type": "IFrame",
+      "url": "https://react-shooter.vercel.app",
+      "gallery": [
+        "https://raw.githubusercontent.com/RedEdge967/store/main/store/img/space-shooter.PNG"
+      ],
+      "desc": "A shooting game to have some fun alone",
+      "feat": "A shooting game to have some fun alone.\n1. Use arrows to move\n2. Press space to shoot"
+    }
+  },
+  {
     "name": "Scratch",
     "icon": "https://llk.github.io/scratch-gui/master/static/favicon.ico",
     "type": "app",
