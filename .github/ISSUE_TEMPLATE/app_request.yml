@@ -1,7 +1,7 @@
 name: App Request
 description: Request an App or a Game
 title: '[REQUEST]'
-labels: 'app-request'
+labels: 'request'
 assignees: 
   - andrewstech
 body:
