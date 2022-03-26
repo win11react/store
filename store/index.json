@@ -18,7 +18,7 @@
     "icon": "https://avatars.githubusercontent.com/u/3671647",
     "type": "app",
     "data": {
-      "type": "IFrame",
+      "type": "IFramePLUS",
       "url": "https://meet.jit.si/",
       "gallery": [
         "https://www.icescrum.com/wp-content/uploads/2020/03/jitsi1.png"
