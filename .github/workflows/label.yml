@@ -10,7 +10,7 @@ jobs:
 
     steps:
     - uses: ben-z/actions-comment-on-issue@1.0.2
-      if: ${{ github.event.label.name == 'approved' }}
+      if: ${{ github.event.label.name == 'Approved' }}
       with:
         message: "Your submission has been approved"
         GITHUB_TOKEN: ${{ secrets.STORE }}
