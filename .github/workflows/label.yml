@@ -1,11 +1,11 @@
 name: label
 
 on:
-  pull_request:
+  issues:
     types: [ labeled ]
 
 jobs:
-  add message:
+  message:
     runs-on: ubuntu-latest
 
     steps:
