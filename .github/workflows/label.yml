@@ -1,0 +1,22 @@
+name: label
+
+on:
+  pull_request:
+    types: [ labeled ]
+
+jobs:
+  add message:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: ben-z/actions-comment-on-issue@1.0.2
+      if: ${{ github.event.label.name == 'approved' }}
+      with:
+        message: "Your submission has been approved"
+        GITHUB_TOKEN: ${{ secrets.STORE }}
+    
+    - uses: ben-z/actions-comment-on-issue@1.0.2
+      if: ${{ github.event.label.name == 'denied' }}
+      with:
+        message: "Your submission has been denied. Sorry"
+        GITHUB_TOKEN: ${{ secrets.STORE }}
