@@ -534,5 +534,21 @@
       "desc": "Scratch is a high-level block-based visual programming language and website targeted primarily at children 8–16 as an educational tool for programming. ",
       "feat": "Users on the site, called Scratchers, can create projects on the website using a block-like interface."
     }
+  },
+ {
+    "name": "Kina OS",
+    "icon": "https://kina-stuff.ha3.repl.co",
+    "type": "app",
+    "data": {
+      "type": "IFrame",
+      "url": "https://star-shadow-studios.ha3.repl.co/kinaos/kinaos.html",
+      "gallery": [
+        "https://star-shadow-studios.ha3.repl.co/kinaos/locks.png",
+        "https://star-shadow-studios.ha3.repl.co/kinaos/home.png",
+        "https://star-shadow-studios.ha3.repl.co/kinaos/intro.png"
+      ],
+      "desc": "Kina OS is a web operating system. ",
+      "feat": "This is kind of a prototype"
+    }
   }
 ]
