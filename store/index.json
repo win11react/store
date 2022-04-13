@@ -334,6 +334,22 @@
       "invert": true
     }
   },
+ {
+    "name": "Mortal Kombat Wiki",
+    "icon": "https://upload.wikimedia.org/wikipedia/sco/thumb/b/b1/Mortal_Kombat_Logo.svg/1200px-Mortal_Kombat_Logo.svg.png",
+    "type": "app",
+    "data": {
+      "type": "IFrame",
+      "url": "https://mk-wiki.vercel.app",
+      "gallery": [
+        "https://user-images.githubusercontent.com/91379432/163125734-be950688-534b-4280-96a6-994fd44d864b.PNG",
+        "https://user-images.githubusercontent.com/91379432/163125779-f7055fdb-157d-48be-89d1-7479c265473a.PNG"
+      ],
+      "desc": "A Mortal Kombat based wiki",
+      "feat": "A open source mortal kombat game based wiki",
+      "invert": true
+    }
+  },
   {
     "name": "Wikipedia",
     "icon": "https://www.wikipedia.org/portal/wikipedia.org/assets/img/Wikipedia-logo-v2.png",
