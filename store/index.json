@@ -158,6 +158,7 @@
   {
     "name": "PowerPoint",
     "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Microsoft_Office_PowerPoint_%282019%E2%80%93present%29.svg/128px-Microsoft_Office_PowerPoint_%282019%E2%80%93present%29.svg.png",
+    "type": "app",
     "data": {
       "type": "IFrame",
       "url": "https://app.deckdeckgo.com",
