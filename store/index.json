@@ -537,6 +537,20 @@
     }
   },
   {
+    "name": "@CChrome",
+    "icon": "https://cdn-icons-png.flaticon.com/512/311/311333.png",
+    "type": "browser",
+    "data": {
+      "type": "IFrame",
+      "url": "https://cherrychrome.neocities.org/",
+      "gallery": [
+        ""
+      ],
+      "desc": "Get more search results!",
+      "feat": "This 'browser' is a collection of others mixed together so you get more results"
+    }
+  },
+  {
     "name": "Scratch",
     "icon": "https://llk.github.io/scratch-gui/master/static/favicon.ico",
     "type": "app",
