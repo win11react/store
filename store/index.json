@@ -539,7 +539,7 @@
   {
     "name": "@CChrome",
     "icon": "https://cdn-icons-png.flaticon.com/512/311/311333.png",
-    "type": "browser",
+    "type": "app",
     "data": {
       "type": "IFrame",
       "url": "https://cherrychrome.neocities.org/",
