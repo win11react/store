@@ -536,13 +536,13 @@
     }
    },
    {
-       "name": "crazy pixel apocalipse"
-       "type": "game"
-       "data":{
-         "type": "IFrame",
-         "url": "https://s3.amazonaws.com/crazygames-unblocked/game/crazy-pixel-apocalypse"
-      ],
-      "desc": "a way to have fun"
-      "feat": "a nice touch to gameing"
-  }
-]
+     "name": "crazy pixel apocalipse",
+     "type": "game",
+     "data": {
+       "type": "IFrame",
+       "url": "https://s3.amazonaws.com/crazygames-unblocked/game/crazy-pixel-apocalypse",
+       "desc": "a way to have fun",
+       "feat": "a nice touch to gameing"
+     }
+   }
+}]
