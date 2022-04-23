@@ -581,5 +581,14 @@
       "desc": "Scratch is a high-level block-based visual programming language and website targeted primarily at children 8–16 as an educational tool for programming. ",
       "feat": "Users on the site, called Scratchers, can create projects on the website using a block-like interface."
     }
-  }
-]
+   },
+   {
+     "name": "crazy pixel apocalipse",
+     "type": "game",
+     "data": {
+       "type": "IFrame",
+       "url": "https://s3.amazonaws.com/crazygames-unblocked/game/crazy-pixel-apocalypse",
+       "desc": "a way to have fun",
+       "feat": "a nice touch to gameing"
+     }
+}]
