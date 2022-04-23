@@ -20,55 +20,6 @@ jobs:
                 ✅ Welcome your PR has been validated successfully. 
            GITHUB_TOKEN: ${{ secrets.BOT }}       
           
-  auto:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - name: Expose git commit data
-        uses: rlespinasse/git-commit-data-action@v1.x
-        
-      - name: Print git commit data
-        run: |
-          echo "Get author info"
-          echo " - ${{ env.GIT_COMMIT_AUTHOR }}"
-          echo " - ${{ env.GIT_COMMIT_AUTHOR_NAME }}"
-          echo " - ${{ env.GIT_COMMIT_AUTHOR_EMAIL }}"
-          echo "Get committer info"
-          echo " - ${{ env.GIT_COMMIT_COMMITTER }}"
-          echo " - ${{ env.GIT_COMMIT_COMMITTER_NAME }}"
-          echo " - ${{ env.GIT_COMMIT_COMMITTER_EMAIL }}"
-          echo "Get message info"
-          echo " - ${{ env.GIT_COMMIT_MESSAGE_SUBJECT }}"
-          echo " - ${{ env.GIT_COMMIT_MESSAGE_SUBJECT_SANITIZED }}"
-          echo " - ${{ env.GIT_COMMIT_MESSAGE_BODY }}"  
-        
-      - name: andrew
-        if: env.GIT_COMMIT_AUTHOR_NAME == 'andrewstech'
-        uses: alexwilson/enable-github-automerge-action@main
-        with:
-          github-token: "${{ secrets.BOT }}"
-          
-      - name: Comment PR
-        if: env.GIT_COMMIT_AUTHOR_NAME == 'andrewstech'
-        uses: unofficial-skills/actions-comment-pull-request@main
-        with:
-           message: |
-                ✅ Welcome Andrew your PR will be auto merged when CI passes.
-           GITHUB_TOKEN: ${{ secrets.BOT }}    
-        
-      - name: blue
-        if: env.GIT_COMMIT_AUTHOR_NAME == 'blueedgetechno'
-        uses: alexwilson/enable-github-automerge-action@main
-        with:
-          github-token: "${{ secrets.BOT }}"
-     
-      - name: Comment PR
-        if: env.GIT_COMMIT_AUTHOR_NAME == 'blueedgetechno'
-        uses: unofficial-skills/actions-comment-pull-request@main
-        with:
-           message: |
-                ✅ Welcome Blue your PR will be auto merged when CI passes.
-           GITHUB_TOKEN: ${{ secrets.BOT }}
 
   
   run-if-fail:
