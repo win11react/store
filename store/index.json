@@ -27,6 +27,20 @@
       "feat": "video conferencing solution."
     }
   },
+    {
+    "name": "cs timer",
+    "icon": "https://https://cstimer.net//blueedgetechno/win11React/master/public/img/icon/code.png",
+    "type": "app",
+    "data": {
+      "type": "IFrame",
+      "url": "https://cstimer.net",
+      "gallery": [
+        "https://https://cstimer.net//assets/home/home-screenshot-win.png"
+      ],
+      "desc": "professional timing program designed for Rubik's cube speedsolvers.",
+      "feat": "Rubik's cube goes brrrr."
+    }
+  },
    {
     "name": "FNAF 1",
     "icon": "http://www.simpleimageresizer.com/_uploads/photos/edf762fc/fnaf_1_icon__16k_res__by_sallysfm_der8rkd-pre_128x128.jpg",
