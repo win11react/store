@@ -4,8 +4,6 @@ on:
   push:
     branches:
       - main
-    paths:
-      - '**.json'
   workflow_dispatch:    
 
 jobs:
@@ -23,5 +21,5 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.BOT }}
-          cname: win.asylum-os.com
+          cname: store.win11react.com
           publish_dir: ./
