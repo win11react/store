@@ -629,15 +629,15 @@
 			"type": "IFrame",
 			"url": "https://bemuse.ninja",
 			"gallery": [ 
-				"http://bemuse.ninja/res/og-image.png",
+				"http://bemuse.ninja/res/og-image.png"
 			],
 			"desc": "Bemuse is web-based rhythm game.",
 			"feat": "2 Gamemodes - Play with KEYBOARD or BMS CONTROLLER",
-			"invert": true,
+			"invert": true
 		}
 	},
   {
-		"name": "Taiko"
+		"name": "Taiko",
 		"icon": "https://github.com/DJMakerMusician/win11inreactappstore/blob/f232d61ae7bb2e23fc284b11ddaf1916a0b128a3/store/img/taiko.png",
 		"type": "game",
 		"data": {
@@ -648,6 +648,6 @@
 			],
 			"desc": "Taiko is one of the most iconic rhythm games, you can find. Play NOW, and become a drummer TODAY!",
 			"feat": "Play simply with your keyboard, or connect a drum controller!",
-			"invert": true,
+			"invert": true
 		}
 }]
