@@ -431,7 +431,7 @@
       "desc": "Paper.io 2 is a real-time multiplayer .io game where you have to capture as much territory as possible.\nPaint the map in your own color to take over the Paper.io world! Look out for other players vying to claim your space.",
       "feat": "Fight and capture"
     }
-  },
+   },
   {
     "name": "Flappy bird",
     "icon": "https://upload.wikimedia.org/wikipedia/en/0/0a/Flappy_Bird_icon.png",
