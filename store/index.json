@@ -634,6 +634,22 @@
 			"desc": "Bemuse is web-based rhythm game.",
 			"feat": "2 Gamemodes - Play with KEYBOARD or BMS CONTROLLER",
 			"invert": true,
-  }
+		}
+	},
+        {
+		"name": "Taiko"
+		"icon": "https://github.com/DJMakerMusician/win11inreactappstore/blob/f232d61ae7bb2e23fc284b11ddaf1916a0b128a3/store/img/taiko.png",
+		"type": "game",
+		"data": {
+			"type": "IFrame",
+			"url": "https://https://taiko.bui.pm/",
+			"gallery": [
+				"https://i.ytimg.com/vi/mx90x5wsDT0/hqdefault.jpg"
+			],
+			"desc": "Taiko is one of the most iconic rhythm games, you can find. Play NOW, and become a drummer TODAY!",
+			"feat": "Play simply with your keyboard, or connect a drum controller!",
+			"invert": true,
+		}
+	}
 }
 ]
