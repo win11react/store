@@ -605,4 +605,21 @@
        "desc": "a way to have fun",
        "feat": "a nice touch to gameing"
      }
+    }, 
+    {
+  "name": "Pulsus",
+  "icon": "https://th.bing.com/th/id/OIP.tR1V8Bl79cmxdD3APZF8AAHaHa?pid=ImgDet&rs=1",
+  "type": "game",
+  "data": {
+    "type": "IFrame",
+    "url": "https://www.pulsus.cc/play",
+    "gallery": 
+      [
+      "https://th.bing.com/th/id/OIP.XJJOW9JnXQiUMVnxB1IVkwHaF4?pid=ImgDet&rs=1",
+    ],
+    "desc": "Pulsus is a brand new rhythm game, that you can play in your browser!",
+    "feat": "Never seen gameplay style - Play with your numpad.",
+    "invert": true,
+  }
+}
 }]
