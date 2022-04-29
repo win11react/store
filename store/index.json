@@ -620,5 +620,20 @@
 			"feat": "Never seen gameplay style - Play with your numpad.",
 			"invert": true
 		}
-	}
+	},
+        {
+		"name": "Bemuse",
+		"icon": "https://github.com/DJMakerMusician/win11inreactappstore/blob/9aec0169dff6407980b41a4ef95f87082b4a6689/store/img/bemuse.png",
+		"type": "game",
+		"data": {
+			"type": "IFrame",
+			"url": "https://bemuse.ninja",
+			"gallery": [ 
+				"http://bemuse.ninja/res/og-image.png",
+			],
+			"desc": "Bemuse is web-based rhythm game.",
+			"feat": "2 Gamemodes - Play with KEYBOARD or BMS CONTROLLER",
+			"invert": true,
+  }
+}
 ]
