@@ -566,6 +566,21 @@
 			"feat": "A shooting game to have some fun alone.\n1. Use arrows to move\n2. Press space to shoot"
 		}
 	},
+        {
+		"name": "Connect Four",
+		"icon": "https://github.com/RedEdge967/connect-four/raw/master/Logo.png",
+		"type": "game",
+		"data": {
+			"type": "IFrame",
+			"url": "https://rededge.is-a.dev/connect-four",
+			"gallery": [
+				"https://github.com/RedEdge967/store/blob/main/store/img/connect4.PNG"
+			],
+			"desc": "Classic connect four game in html",
+			"feat": "Classic connect four game in html, css and javascript",
+			"invert": true
+		}
+	},
 	{
 		"name": "@CChrome",
 		"icon": "https://cdn-icons-png.flaticon.com/512/311/311333.png",
