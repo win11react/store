@@ -15,7 +15,7 @@
 	},
  
  	{
-		"name": "Windows Subsystem for Android",
+		"name": "WSA",
 		"icon": "https://android.blueedge.me/favicon.ico",
 		"type": "app",
 		"data": {
