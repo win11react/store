@@ -44,17 +44,17 @@
 		}
 	},
 	{
-		"name": "cs timer",
-		"icon": "https://https://cstimer.net//blueedgetechno/win11React/master/public/img/icon/code.png",
+		"name": "CSTimer",
+		"icon": "https://crowdin-static.downloads.crowdin.com/images/project-logo/341247/small/2e24845917ed2a16d6df8549c6fb78ef399.png",
 		"type": "app",
 		"data": {
 			"type": "IFrame",
 			"url": "https://cstimer.net",
 			"gallery": [
-				"https://https://cstimer.net//assets/home/home-screenshot-win.png"
+				"https://cstimer.net/assets/home/home-screenshot-win.png"
 			],
-			"desc": "professional timing program designed for Rubik's cube speedsolvers.",
-			"feat": "Rubik's cube goes brrrr."
+			"desc": "Professional timing program designed for Rubik's Cube Speed Solvers.",
+			"feat": "It provides: Amounts of scramble algorithms, including all WCA official events, varieties of twisty puzzles, training scramble for specific sub steps (e.g. F2L, OLL, PLL, ZBLL, and can filter cases), etc."
 		}
 	},
 	{
