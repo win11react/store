@@ -29,6 +29,22 @@
 		}
 	},
  
+ 	{
+		"name": "WSL",
+		"icon": "https://raw.githubusercontent.com/win11react/store/main/store/img/wsl.png",
+		"type": "app",
+		"data": {
+			"type": "IFrame",
+			"url": "https://notaperson535.github.io/vibeos/",
+			"gallery": [
+				"https://tse3.mm.bing.net/th/id/OIP.boxvK0oLF7DNBtBn1t5wjwHaEy?pid=ImgDet&rs=1",
+				"https://miro.medium.com/max/2652/1*Hv7hbkxpOsNyzt5-Pv8FJQ.png"
+			],
+			"desc": "Run linux inside of windows!",
+			"feat": "Run apps and more."
+		}
+	},
+ 
 	{
 		"name": "Jitsi Meet",
 		"icon": "https://avatars.githubusercontent.com/u/3671647",
