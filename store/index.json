@@ -31,7 +31,7 @@
  
  	{
 		"name": "WSL",
-		"icon": "https://raw.githubusercontent.com/win11react/store/main/store/img/wsl.png",
+		"icon": "https://raw.githubusercontent.com/win11react/store/main/store/img/wsl.jpg",
 		"type": "app",
 		"data": {
 			"type": "IFrame",
