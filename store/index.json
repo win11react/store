@@ -413,6 +413,21 @@
 			"invert": true
 		}
 	},
+        {
+		"name": "HACKZILLA",
+		"icon": "https://github.com/RedEdge967/HACKZILLA/raw/master/image-removebg-preview.png",
+		"type": "app",
+		"data": {
+			"type": "IFrame",
+			"url": "https://rededge.is-a.dev/HACKZILLA",
+			"gallery": [
+				"https://github.com/RedEdge967/store/blob/main/store/img/HACKZILLA.png?raw=true"
+			],
+			"desc": "A name generator for everyone",
+			"feat": "A name generator for everyone",
+			"invert": true
+		}
+	},
 	{
 		"name": "Wikipedia",
 		"icon": "https://www.wikipedia.org/portal/wikipedia.org/assets/img/Wikipedia-logo-v2.png",
@@ -606,7 +621,7 @@
 			"type": "IFrame",
 			"url": "https://rededge.is-a.dev/connect-four",
 			"gallery": [
-				"https://github.com/RedEdge967/store/blob/main/store/img/connect4.PNG"
+				"https://github.com/RedEdge967/store/blob/main/store/img/connect4.PNG?raw=true"
 			],
 			"desc": "Classic connect four game in html",
 			"feat": "Classic connect four game in html, css and javascript",
