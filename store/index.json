@@ -712,4 +712,18 @@
 			"feat": "Play simply with your keyboard, or connect a drum controller!",
 			"invert": true
 		}
+  {
+		"name": "Fire on Asphalt",
+		"icon": "https://raw.githubusercontent.com/aarush-paul/fire-on-asphalt/main/icon_256.png",
+		"type": "game",
+		"data": {
+			"type": "IFrame",
+                        "url": "https://www.aarushpaul.codes/fire-on-asphalt",
+			"gallery": [
+				"https://raw.githubusercontent.com/aarush-paul/fire-on-asphalt/main/icon_256.png"
+			],
+			"desc": "A modern 3D racing game made by @aarush-paul",
+			"feat": "Play with your keyboard, no download required!",
+			"invert": true
+		}
 }]
