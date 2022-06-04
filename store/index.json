@@ -428,6 +428,21 @@
 			"invert": true
 		}
 	},
+        {
+		"name": "Adventures of Red",
+		"icon": "https://github.com/RedEdge967/adventures-of-red/raw/master/Red%20player_stand.png",
+		"type": "game",
+		"data": {
+			"type": "IFrame",
+			"url": "https://rededge.is-a.dev/adventures-of-red",
+			"gallery": [
+				"https://github.com/win11react/store/blob/main/store/img/adventures-of-red.PNG?raw=true"
+			],
+			"desc": "A Platformer game",
+			"feat": "A little platformer game where you have to collect 20 coins and defeat one enemy",
+			"invert": true
+		}
+	},
 	{
 		"name": "Wikipedia",
 		"icon": "https://www.wikipedia.org/portal/wikipedia.org/assets/img/Wikipedia-logo-v2.png",
