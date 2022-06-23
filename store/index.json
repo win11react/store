@@ -349,6 +349,21 @@
 			"feat": "Play and win"
 		}
 	},
+        {
+		"name": "Doctor Strange : The Game",
+		"icon": "https://github.com/RedEdge967/Doctor-Strange/raw/master/Doctor_Strange.png",
+		"type": "game",
+		"data": {
+			"type": "IFrame",
+			"url": "https://rededge.is-a.dev/Doctor-Strange",
+			"gallery": [
+				"https://github.com/win11React/store/blob/main/store/img/Capture.PNG?raw=true"
+			],
+			"desc": "Fight monsters as Doctor Strange",
+			"feat": "Fight monsters as, \n1. Doctor Strange\n2. Defender Strange\n3. Sinister Strange\n4. Supreme Strange\n5. Zombie Doctor Strange",
+			"invert": true
+		}
+	},
 	{
 		"name": "Super Mario Bros.",
 		"icon": "https://icons.iconarchive.com/icons/ph03nyx/super-mario/128/Retro-Mario-icon.png",
