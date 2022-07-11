@@ -742,4 +742,19 @@
 			"feat": "Play simply with your keyboard, or connect a drum controller!",
 			"invert": true
 		}
+}
+{
+  "name": "Bad Time Simulator",
+  "icon": "https://raw.githubusercontent.com/Jcw87/c2-sans-fight/gh-pages/icon-114.png", 
+  "type": "game",
+  "data": {
+    "type": "IFrame",
+    "url": "https://jcw87.github.io/c2-sans-fight/",
+    "gallery": [ 
+      "https://static.wikia.nocookie.net/undertale/images/4/4b/MEGALOVANIA_soundtrack.png/revision/latest/scale-to-width-down/350?cb=20160510142007"
+    ],
+    "desc": "Bad Time Simulator emulates the Sans fight from Undertale.",
+    "feat": "Custom attacks, that you can make with a csv file.",
+    "invert": true,
+  }
 }]
