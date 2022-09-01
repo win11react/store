@@ -755,6 +755,6 @@
     ],
     "desc": "Bad Time Simulator emulates the Sans fight from Undertale.",
     "feat": "Custom attacks, that you can make with a csv file.",
-    "invert": true,
+    "invert": true
   }
 }]
