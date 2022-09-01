@@ -1,18 +1,33 @@
 {
-  "name": "Super Smash Aeugh Web",
-  "icon": "https://cdn.discordapp.com/attachments/880568849085374504/945988898406953000/pufferfish.png",
-  "type": "app",
+  "name": "Kahoot! Play",
+  "icon": "https://store-images.s-microsoft.com/image/apps.4020.14481163565172897.e8d5ce4f-8cd7-4111-a111-c93dfaeaf3f6.2caa520a-e6da-4650-92b1-6b75efe7ce27",
+  "type": "game",
   "data": {
     "type": "IFrame",
-    "url": "url-here",
+    "url": "https://kahoot.it",
     "gallery": [
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQoPckz603CcUVyrUwDAX04l7OXMpKZQXI4QUr9P5_UMas37EMmrSUNn9JgK5Yzz0R8Kw&usqp=CAU",
       "https://www.researchgate.net/profile/Robert-Morris-5/publication/228389474/figure/fig2/AS:393642368880642@1470863062228/A-screenshot-of-the-Scratch-programming-blocks.png",
       "https://techcrunch.com/wp-content/uploads/2019/01/ProjectEditor.png?w=430&h=230&crop=1"
     ],
-    "desc": "Scratch is a high-level block-based visual programming language and website targeted primarily at children 8â€“16 as an educational tool for programming. ",
-    "feat": "Users on the site, called Scratchers, can create projects on the website using a block-like interface."
+    "desc": " 
+Join a game of kahoot on your computer or mobile device - all you need is an internet connection and a game PIN. Kahoot! brings fun into the classroom - play, learn and unleash your secret classroom superpowers!
+
+Kahoot! is a game-based learning platform that makes learning awesome. The best way to play Kahoot! is in a group, like your classroom. Questions appear on a shared screen and you answer on your own device. 
+
+Many games (we call them ‘kahoots’) are designed as quizzes with multiple choice questions. Another type is a Jumble game where you have to put answers in the correct order - stay focused, precision is king here! But the faster you answer, the more points you can get. Discuss and celebrate together - it’s going to be loud! 
+
+Playing Kahoot! is really simple:
+- Enter the game PIN that you see once the host has launched the kahoot. You don’t even need to create an account!
+- On the next step, type your nickname.
+- All ready to go! Look up to the shared screen and use your device as the controller to answer the questions.
+- See how many points you got and where you’re standing on the scoreboard as you play. Next stop - top spot.
+
+Enjoyed playing? Create your own kahoot on the topic and challenge your classmates! If you want to create or host a kahoot on your computer, get the Kahoot! Create app from Microsoft Store. 
+
+Have fun playing and learning! And remember - victory is closer than you think. ",
+    "feat": ""
   },
-  "url": "https://melonicoverlord.github.io/aeughweb/",
+  "url": "https://kahoot.it",
   "Type": "game"
 }
