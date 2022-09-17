@@ -771,5 +771,19 @@
     	"desc": "Virtual Machine...",
     	"feat": "Inception",
     	"invert": true
+  },
+  {
+  		"name": "CakeDraw",
+                "icon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAIAAAD8GO2jAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAAHBSURBVEhL7ZS/SwJhGMdfGw5psqhQC7mz2krIvUEchGpqcZUmIwiCloJmQajoxxBGCA0tTUEgQf9BQW1tQUu0NNZq3/N9Os9HvXtOERr68KXB53k/3/c8SdUHTEtBrVYzTVN1Ap9Xq1XaC0KzAHbDMMj3SzY8/BQzP6dmkOe4db+5RdtiqAD2SCRC1lavO++T03pfDhVEo1FyN+yv8SRT6+yPjJdKJX1EiF2A65O7wUvMYt7jOStxnk3erODvaC6pTwqxC9j1He/RbEJ73bGulwK9bbuA3A3c1zevcsyOjK3Ph8NhfViCXYADpFfKsVdWF9zeie10yBiiJUVvToK9ivdG55TC70QX4KvQalyZZqmMOniws5jXhyXwu3yfnsH+tbOXr2w07Vp9+UG5eKNtAV4Py71OCmXaEOBVEDp85GqkUMYj0YYAr9XcyW27GhSLRdoQ4HMX9/vXLKeD/bcQPexaJuXY73bzCA0EiAq0lIVmfkhfF7MjNPBDWgBYAUIDTwIUAFaA0KA7/RYgNOtCsALA7Do060TgAsDsCA060UsBYAUIDdrosQCwAoQGrfzhAjDwAuBtB/0W+PJf4EO9/gMWrvOEG3j9FQAAAABJRU5ErkJggg=="
+  		"type": "app",
+  		"data": {
+    			"type": "IFrame",
+    			"url": "https://lime360.neocities.org/cakedraw.html",
+    			"gallery": [
+      				"https://i.ibb.co/YWGbgVW/Screenshot-20220917-131348-Firefox.jpg"
+    	],
+    	"desc": "Simple drawing app made in Scratch. Made by lime360 (lime360.neocities.org)",
+    	"feat": "Just a simple app made in Scratch that on Windows 11 in React. Yeah.",
+    	"invert": false
   }
 }]
