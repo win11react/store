@@ -7,13 +7,8 @@ For the store file, please visit: [store.json - Win11React](https://github.com/w
 
 First, please make sure the site accepts IFrame. You can check this by inserting the sites URL into this: [IFrame checker](https://www.tinywebgallery.com/blog/advanced-iframe/free-iframe-checker).
 
-#### Either
 
-#### 1. Create an [Issue](https://github.com/win11react/store/issues/new/choose) and follow the given steps. **THIS IS IN BETA**
-
-### OR
-
-#### 2. Make a pull request by manually editing the `store.json` file in your fork
+#### Make a pull request by manually editing the `store.json` file in your fork
 
 Read the schema below, **BEFORE** adding any game and/or app element into the Store file:
 ```json
