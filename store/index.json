@@ -1,4 +1,21 @@
 [{
+		"name": "EaglerCraft",
+		"icon": "https://e.top4top.io/p_2498vwc9c1.png",
+		"type": "game",
+		"data": {
+			"type": "IFrame",
+			"url": "https://g.deev.is/eaglercraft/",
+			"invert": false,
+			"gallery": [
+				"https://camo.githubusercontent.com/7a202f90e0cca3fbbd50ca2361282e21a26919c24bc1d73ec6278b8c3859a40b/68747470733a2f2f672e646565762e69732f6561676c657263726166742f636f7665722e706e67",
+				"https://camo.githubusercontent.com/7a202f90e0cca3fbbd50ca2361282e21a26919c24bc1d73ec6278b8c3859a40b/68747470733a2f2f672e646565762e69732f6561676c657263726166742f636f7665722e706e67",
+				"https://camo.githubusercontent.com/7a202f90e0cca3fbbd50ca2361282e21a26919c24bc1d73ec6278b8c3859a40b/68747470733a2f2f672e646565762e69732f6561676c657263726166742f636f7665722e706e67"
+			],
+			"desc": "Eaglercraft is real Minecraft 1.5.2 that you can play in any regular web browser. It supports both singleplayer and multiplayer.",
+			"feat": "Multiplayer, Singleplayer, etc like minecraft java edition"
+		}
+      },
+      {
 		"name": "LTunes",
 		"icon": "https://ltunes.gq/assets/Logo.png",
 		"type": "app",
