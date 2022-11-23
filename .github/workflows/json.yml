@@ -12,7 +12,7 @@ jobs:
           ref: "refs/pull/${{ github.event.pull_request.number }}/merge"
         
       - name: json-syntax-check
-        uses: limitusus/json-syntax-check@v1
+        uses: limitusus/json-syntax-check@v2
         with:
           pattern: "\\.json$"
           
