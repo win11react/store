@@ -775,6 +775,21 @@
 			"invert": true
 		}
 },
+	{
+		"name": "HyperTabs",
+		"icon": "https://images.app.goo.gl/g9SpKJptLP3e7UTb9",
+		"type": "Browser",
+		"data": {
+			"type": "IFrame",
+			"url": "https://hypertabs.cc",
+			"gallery": [
+				"https://images.app.goo.gl/g9SpKJptLP3e7UTb9"
+			],
+			"desc": "A broswer with built in proxy and multitab support",
+			"feat": "A proxy browser",
+			"invert": true
+		}
+	},
     {
   		"name": "windows 11 Inception",
   		"icon": "https://images.tokopedia.net/img/cache/500-square/VqbcmM/2022/1/29/ad18df0f-bee3-4b8a-9806-ff32ba2e0754.jpg.webp?ect=4g",
