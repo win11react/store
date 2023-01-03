@@ -13,8 +13,8 @@
                   "desc": "Classicube is a sandbox game similar to Minecraft classic", 
                   "feat": "Browser server list (PC servers soon) and singleplayer",
                   "invert": true,
-                  }
-                 },
+                  },
+                 }
 	        "name": "LTunes",
 		"icon": "https://ltunes.gq/assets/Logo.png",
 		"type": "app",
