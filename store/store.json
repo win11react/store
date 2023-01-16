@@ -1,0 +1,17 @@
+{
+  "name": "Windows93",
+  "icon": "file:///C:/Users/Administrator/VirtualBox%20VMs/Windows%2010%2020H2/Desktop/win%20reach/win93.png" 
+  "type": "app" 
+  "data": {
+    "type": "IFrame"
+    "url": "https://www.windows93.net/"
+    "gallery": [ 
+      "https://www.linuxadictos.com/wp-content/uploads/windows-93.jpg",
+      "https://i.ytimg.com/vi/h8OcLoS7B5g/maxresdefault.jpg",
+      "https://149362454.v2.pressablecdn.com/previously/wp-content/uploads/sites/5/2015/06/93.jpg"
+    ]
+    "desc": "Windows 96 recreation"
+    "feat": "The os older then your mother."
+    "invert": true
+  }
+}
