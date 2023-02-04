@@ -804,4 +804,18 @@
     	"feat": "Inception",
     	"invert": true
   }
+}
+
+{
+  "name": "hitsab",
+  "icon": "https://franck403.github.io/hitsab/img/logo.png",
+  "type": "app",
+  "data": {
+    "type": "IFrame",
+    "url": "https://franck403.github.io/hitsab",
+    "gallery": ["https://franck403.github.io/hitsab/img/home.png","https://franck403.github.io/hitsab/img/multitab.png"],
+    "desc": "", // description for store app
+    "feat": "For do web browsing in wii11react",
+    "invert": false,
+  }
 }]
