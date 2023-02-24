@@ -813,8 +813,8 @@
     "type": "IFrame",
     "url": "https://franck403.github.io/hitsab",
     "gallery": ["https://franck403.github.io/hitsab/img/home.png","https://franck403.github.io/hitsab/img/multitab.png"],
-    "desc": "", // description for store app
-    "feat": "For do web browsing in wii11react",
-    "invert": false,
+    "desc": "", 
+    "feat": "For do web browsing in win11react",
+    "invert": false
   }
 }]
