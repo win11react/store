@@ -791,7 +791,7 @@
 		}
 	},
     {
-	    "name": "MInecraft 1.5/1.8",
+	   	"name": "MInecraft 1.5/1.8",
 		"icon": "https://raw.githubusercontent.com/win11react/store/main/store/img/minecraft.png",
 		"type": "game",
 		"data": {
@@ -799,12 +799,12 @@
 			"url": "https://asianf4rmer.vercel.app/",
 			"invert": false,
 			"gallery": [
-				"",
-				"",
-				""
+				"https://i.ytimg.com/vi/VF09YjCHUIw/mqdefault.jpg",
+				"https://i.ytimg.com/vi/rWEAKlXBeKU/maxresdefault.jpg",
+				"https://i.ytimg.com/vi/Xq3oFX8VkAw/maxresdefault.jpg"
 			],
-			"desc": "A music, radio, and podcast app.",
-			"feat": "music, radio, podcasts."
+			"desc": "A Minecraft server enabled game list so you can play with your friends.",
+			"feat": "multiplayer, gaming, minecraft."
 		}
 	},
     {
