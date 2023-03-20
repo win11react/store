@@ -790,8 +790,8 @@
 			"invert": true
 		}
 	},
-    {
-	   	"name": "MInecraft 1.5/1.8",
+    	{
+	   	"name": "Minecraft 1.5/1.8",
 		"icon": "https://raw.githubusercontent.com/win11react/store/main/store/img/minecraft.png",
 		"type": "game",
 		"data": {
@@ -807,7 +807,7 @@
 			"feat": "multiplayer, gaming, minecraft."
 		}
 	},
-    {
+	{
   		"name": "windows 11 Inception",
   		"icon": "https://images.tokopedia.net/img/cache/500-square/VqbcmM/2022/1/29/ad18df0f-bee3-4b8a-9806-ff32ba2e0754.jpg.webp?ect=4g",
   		"type": "Virtual Machine",
