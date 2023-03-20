@@ -706,6 +706,21 @@
 		}
 	},
 	{
+	"name": "Webex",
+		"icon": "https://play-lh.googleusercontent.com/v7KvbeIbypHKyEv1IMvy1qCN3ZytBb7FlDKBxo3ke_DuM1kdGmegvqVG6qhFx8U13Ug",
+		"type": "app",
+		"data": {
+			"type": "IFrame",
+			"url": "https://web.webex.com",
+			"gallery": [
+				"https://www.cisco.com/c/en/us/products/conferencing/webex-meetings/index/jcr:content/Grid/subcategory_atl_5cf/layout-subcategory-atl/marquee_inpage_fab_c.img.jpg/1622847607625.jpg",
+				"https://www.cisco.com/content/dam/en/us/td/i/400001-500000/450001-460000/456001-457000/456419.jpg"
+			],
+			"desc": "Webex is an online tool for chatting and calling. ",
+			"feat": "communications, online, distance"
+		}
+	},
+	{	
 		"name": "crazy pixel apocalipse",
 		"type": "game",
 		"data": {
