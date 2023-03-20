@@ -706,6 +706,35 @@
 		}
 	},
 	{
+		"name": "Webex",
+		"icon": "https://play-lh.googleusercontent.com/v7KvbeIbypHKyEv1IMvy1qCN3ZytBb7FlDKBxo3ke_DuM1kdGmegvqVG6qhFx8U13Ug",
+		"type": "app",
+		"data": {
+			"type": "IFrame",
+			"url": "https://web.webex.com",
+			"gallery": [
+				"https://www.cisco.com/c/en/us/products/conferencing/webex-meetings/index/jcr:content/Grid/subcategory_atl_5cf/layout-subcategory-atl/marquee_inpage_fab_c.img.jpg/1622847607625.jpg",
+				"https://www.cisco.com/content/dam/en/us/td/i/400001-500000/450001-460000/456001-457000/456419.jpg"
+			],
+			"desc": "Webex is an online tool for chatting and calling. ",
+			"feat": "communications, online, distance"
+		}
+	},
+	{	
+		"name": "Amazon",
+		"icon": "https://play-lh.googleusercontent.com/7nPCXIJ5I2KZCPdPH12SFIoYM6GF_tIGy3bIEGPB6kC8NV03MkaOzBaPIb6wesANuls=w240-h480-rw",
+		"type": "app",
+		"data": {
+			"type": "IFrame",
+			"url": "https://www.amazon.com/",
+			"gallery": [
+				"https://cdn1.vox-cdn.com/uploads/chorus_asset/file/2915238/new.0.png"
+			],
+			"desc": "online shopping tool ",
+			"feat": "shopping, Amazon, easy."
+		}
+	},
+	{	
 		"name": "crazy pixel apocalipse",
 		"type": "game",
 		"data": {
@@ -790,8 +819,8 @@
 			"invert": true
 		}
 	},
-    	{
-	   	"name": "Rammerhead",
+    {
+	  	  "name": "Rammerhead",
 		  "icon": "data:image/png;base64,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",
 		  "type": "app",
 		  "data": {
