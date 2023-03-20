@@ -792,9 +792,9 @@
 	},
     	{
 	   	"name": "Minecraft 1.5/1.8",
-		"icon": "https://raw.githubusercontent.com/win11react/store/main/store/img/minecraft.png",
-		"type": "game",
-		"data": {
+		  "icon": "https://raw.githubusercontent.com/win11react/store/main/store/img/minecraft.png",
+		  "type": "game",
+		  "data": {
 			"type": "IFrame",
 			"url": "https://asianf4rmer.vercel.app/",
 			"invert": false,
