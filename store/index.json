@@ -706,7 +706,7 @@
 		}
 	},
 	{
-	"name": "Webex",
+		"name": "Webex",
 		"icon": "https://play-lh.googleusercontent.com/v7KvbeIbypHKyEv1IMvy1qCN3ZytBb7FlDKBxo3ke_DuM1kdGmegvqVG6qhFx8U13Ug",
 		"type": "app",
 		"data": {
@@ -718,6 +718,20 @@
 			],
 			"desc": "Webex is an online tool for chatting and calling. ",
 			"feat": "communications, online, distance"
+		}
+	},
+	{	
+		"name": "Amazon",
+		"icon": "https://play-lh.googleusercontent.com/7nPCXIJ5I2KZCPdPH12SFIoYM6GF_tIGy3bIEGPB6kC8NV03MkaOzBaPIb6wesANuls=w240-h480-rw",
+		"type": "app",
+		"data": {
+			"type": "IFrame",
+			"url": "https://www.amazon.com/",
+			"gallery": [
+				"https://cdn1.vox-cdn.com/uploads/chorus_asset/file/2915238/new.0.png"
+			],
+			"desc": "online shopping tool ",
+			"feat": "shopping, Amazon, easy."
 		}
 	},
 	{	
