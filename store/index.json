@@ -587,17 +587,15 @@
 	},
 	{
 		"name": "osu!",
-		"icon": "https://i.ibb.co/k6GWsJn/download.jpg",
+		"icon": "https://joshua-usi.github.io/osw/src/images/osw.png",
 		"type": "game",
 		"data": {
 			"type": "IFrame",
-			"url": "https://webosu.online/",
+			"url": "https://joshua-usi.github.io/osw/",
 			"gallery": [
-				"https://gamefaqs.gamespot.com/a/screen/full/4/0/0/919400.jpg",
-				"https://i.ibb.co/xhfLhWs/Screenshot-2022-01-16-2-16-18-PM.png",
-				"https://www.taminggaming.com/cms/graphics/screen_shot_3459.jpeg"
+				"https://joshua-usi.github.io/osw/src/images/osw-background.png"
 			],
-			"desc": "osu!, is a fun free-to-play rhythm game",
+			"desc": "osu!, is a fun free-to-play rhythm game, you have to upload your own beatmaps",
 			"feat": "fun game with alot of beatmaps"
 		}
 	},
