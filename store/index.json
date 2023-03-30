@@ -805,7 +805,7 @@
 	},
     {
 	  	  "name": "Elixr",
-		  "icon": "https://plooshidocs.online/ploosh.webp",
+		  "icon": "https://plugins.jetbrains.com/files/7522/267795/icon/pluginIcon.png",
 		  "type": "app",
 		  "data": {
 			"type": "IFrame",
