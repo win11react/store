@@ -820,6 +820,36 @@
 		}
 	},
 	{
+		 "name": "3D Tuning",
+		  "icon": "https://imgs.search.brave.com/XEdCzwzEmNXtBbRdqh2SHGctYzEqXwf7UC1-CTMs17E/rs:fit:300:300:1/g:ce/aHR0cHM6Ly9saDYu/Z2dwaHQuY29tL0hf/QWhhazV2bzd3QnQ4/NDV6S3Q4TUEybVpS/cGNwYmktdHRKSzd5/Zm1BR08zc1otanJI/bl93WGgwemhzWDl5/QzJvUT13MzAw",
+		  "type": "app",
+		  "data": {
+			"type": "IFrame",
+			"url": "https://www.3dtuning.com/en-US/",
+			"invert": false,
+			"gallery": [
+				"https://imgs.search.brave.com/K9Fvbhy1rWfYdrfldg6Wybqr2NRU9PJqdq1RKsQTCEY/rs:fit:1200:720:1/g:ce/aHR0cHM6Ly9pLnl0/aW1nLmNvbS92aS92/N0hQUC12OUxpcy9t/YXhyZXNkZWZhdWx0/LmpwZw"
+			],
+			"desc": "3D tuning app to tune cars online!",
+			"feat": "tuning, cars, 3D."
+		}
+	},
+	{
+		 "name": "SpatialChat",
+		  "icon": "https://imgs.search.brave.com/Xzeq3w4oNdcZkpTeHdXRO7G3_HEChPupUfXC8C1qBus/rs:fit:399:399:1/g:ce/aHR0cHM6Ly9pbWFn/ZXMuc2Fhc3dvcnRo/eS5jb20vc3BhdGlh/bGNoYXRfMTE2MDdf/bG9nb18xNjA2OTgy/NTAzX212dWpiLmpw/Zw",
+		  "type": "app",
+		  "data": {
+			"type": "IFrame",
+			"url": "https://app.spatial.chat/s/campfirefurs",
+			"invert": false,
+			"gallery": [
+				"https://imgs.search.brave.com/O9ROVdU5-qm2A_eqDwblc9CHjZd0SINv58bAROmZ300/rs:fit:1024:587:1/g:ce/aHR0cHM6Ly93d3cu/c2VsYnN0bGVybmVu/Lm5ldC93cC1jb250/ZW50L3VwbG9hZHMv/c2l0ZXMvMjMvMjAy/MS8wNy9zZWxic3Rs/ZXJuZW4ubmV0LUND/LUJZLTQuMC1zcGF0/aWFsY2hhdC1ncnVw/cGUtMTAyNHg1ODcu/cG5n"
+			],
+			"desc": "Online spatial audio and video chat",
+			"feat": "spatial, mic, video, calling."
+		}
+	},
+	{
   		"name": "windows 11 Inception",
   		"icon": "https://images.tokopedia.net/img/cache/500-square/VqbcmM/2022/1/29/ad18df0f-bee3-4b8a-9806-ff32ba2e0754.jpg.webp?ect=4g",
   		"type": "Virtual Machine",
