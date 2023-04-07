@@ -804,16 +804,15 @@
 		}
 	},
     {
-	  	  "name": "Elixr",
-		  "icon": "https://plugins.jetbrains.com/files/7522/267795/icon/pluginIcon.png",
+	  	  "name": "Plooshi Docs",
+		  "icon": "https://plooshidocs.online/index.svg",
 		  "type": "app",
 		  "data": {
 			"type": "IFrame",
-			"url": "https://elixirofficial.com/",
+			"url": "https://plooshidocs.online/",
 			"invert": false,
 			"gallery": [
-				"https://repository-images.githubusercontent.com/569888455/ea76834a-9583-457f-82e3-7858a1e4b70b",
-				"https://user-images.githubusercontent.com/72959444/203647512-a582b7ba-bee0-4134-96c1-fe4c11e76395.png"
+				"https://imgs.search.brave.com/JNmyNpga4J-eta_yjlKXiAHjr_GuGiUOiW3WSOKgGKE/rs:fit:1200:600:1/g:ce/aHR0cHM6Ly9vcGVu/Z3JhcGguZ2l0aHVi/YXNzZXRzLmNvbS8z/MGRlYWUxZTIzYjEy/ZjA2OGU0YmMzNjQ1/YzE1MGU3MzdiMDRj/MjdhMTJmNWM5YTAy/NTY1MjViN2RkM2Rk/NTJlL3Bsb29zaGkv/RG9jcw"
 			],
 			"desc": "A browser made for those who have terrible internet",
 			"feat": "browsing, apps."
