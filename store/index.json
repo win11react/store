@@ -235,21 +235,6 @@
 		}
 	},
 	{
-		"name": "PowerPoint",
-		"icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Microsoft_Office_PowerPoint_%282019%E2%80%93present%29.svg/128px-Microsoft_Office_PowerPoint_%282019%E2%80%93present%29.svg.png",
-		"type": "app",
-		"data": {
-			"type": "IFrame",
-			"url": "https://app.deckdeckgo.com",
-			"gallery": [
-				"https://www.saashub.com/images/app/screenshots/153/i3djerzu0t57/landing-medium.jpg",
-				"https://deckdeckgo.com/assets/meta/deckdeckgo-meta.png"
-			],
-			"desc": "DeckDeckGo is a slideshow creation app",
-			"feat": "You can make slideshows"
-		}
-	},
-	{
 		"name": "Shell Shockers",
 		"icon": "https://play-lh.googleusercontent.com/P-nde227L29s8w5U44kTPLiEnMEJUhJpEr4jL6tD6LV65Xz0JZtI4wEyFN-smsNrx-Q",
 		"type": "game",
