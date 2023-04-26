@@ -572,17 +572,15 @@
 	},
 	{
 		"name": "osu!",
-		"icon": "https://i.ibb.co/k6GWsJn/download.jpg",
+		"icon": "https://joshua-usi.github.io/osw/src/images/osw.png",
 		"type": "game",
 		"data": {
 			"type": "IFrame",
-			"url": "https://webosu.online/",
+			"url": "https://joshua-usi.github.io/osw/",
 			"gallery": [
-				"https://gamefaqs.gamespot.com/a/screen/full/4/0/0/919400.jpg",
-				"https://i.ibb.co/xhfLhWs/Screenshot-2022-01-16-2-16-18-PM.png",
-				"https://www.taminggaming.com/cms/graphics/screen_shot_3459.jpeg"
+				"https://joshua-usi.github.io/osw/src/images/osw-background.png"
 			],
-			"desc": "osu!, is a fun free-to-play rhythm game",
+			"desc": "osu!, is a fun free-to-play rhythm game, you have to upload your own beatmaps",
 			"feat": "fun game with alot of beatmaps"
 		}
 	},
@@ -706,20 +704,6 @@
 		}
 	},
 	{	
-		"name": "Amazon",
-		"icon": "https://play-lh.googleusercontent.com/7nPCXIJ5I2KZCPdPH12SFIoYM6GF_tIGy3bIEGPB6kC8NV03MkaOzBaPIb6wesANuls=w240-h480-rw",
-		"type": "app",
-		"data": {
-			"type": "IFrame",
-			"url": "https://www.amazon.com/",
-			"gallery": [
-				"https://cdn1.vox-cdn.com/uploads/chorus_asset/file/2915238/new.0.png"
-			],
-			"desc": "online shopping tool ",
-			"feat": "shopping, Amazon, easy."
-		}
-	},
-	{	
 		"name": "crazy pixel apocalipse",
 		"type": "game",
 		"data": {
@@ -805,20 +789,48 @@
 		}
 	},
     {
-	  	  "name": "Rammerhead",
-		  "icon": "https://avatars.githubusercontent.com/u/118027739?s=64&v=4",
+	  	  "name": "Plooshi Docs",
+		  "icon": "https://plooshidocs.online/index.svg",
 		  "type": "app",
 		  "data": {
 			"type": "IFrame",
-			"url": "https://abc-math-learning.cf/",
+			"url": "https://plooshidocs.online/",
 			"invert": false,
 			"gallery": [
-				"https://i.ytimg.com/vi/jFsPi7C522w/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGGUgVShaMA8=&rs=AOn4CLAjHBfrU9uLHv2GTZYnlkwzuYuq7Q",
-				"https://storage.googleapis.com/replit/images/1675878969837_1e7b4af220c1ccdccbe8b28f109ff0c3.png",
-				"https://i.ytimg.com/vi/dEW4OKvcZio/maxresdefault.jpg?sqp=-oaymwEmCIAKENAF8quKqQMa8AEB-AH-CYACrAWKAgwIABABGCYgKCh_MA8=&rs=AOn4CLAruC3IDzBec15c_YxFTq0o7lF4Mg"
+				"https://imgs.search.brave.com/JNmyNpga4J-eta_yjlKXiAHjr_GuGiUOiW3WSOKgGKE/rs:fit:1200:600:1/g:ce/aHR0cHM6Ly9vcGVu/Z3JhcGguZ2l0aHVi/YXNzZXRzLmNvbS8z/MGRlYWUxZTIzYjEy/ZjA2OGU0YmMzNjQ1/YzE1MGU3MzdiMDRj/MjdhMTJmNWM5YTAy/NTY1MjViN2RkM2Rk/NTJlL3Bsb29zaGkv/RG9jcw"
 			],
 			"desc": "A browser made for those who have terrible internet",
 			"feat": "browsing, apps."
+		}
+	},
+	{
+		 "name": "3D Tuning",
+		  "icon": "https://imgs.search.brave.com/XEdCzwzEmNXtBbRdqh2SHGctYzEqXwf7UC1-CTMs17E/rs:fit:300:300:1/g:ce/aHR0cHM6Ly9saDYu/Z2dwaHQuY29tL0hf/QWhhazV2bzd3QnQ4/NDV6S3Q4TUEybVpS/cGNwYmktdHRKSzd5/Zm1BR08zc1otanJI/bl93WGgwemhzWDl5/QzJvUT13MzAw",
+		  "type": "app",
+		  "data": {
+			"type": "IFrame",
+			"url": "https://www.3dtuning.com/en-US/",
+			"invert": false,
+			"gallery": [
+				"https://imgs.search.brave.com/K9Fvbhy1rWfYdrfldg6Wybqr2NRU9PJqdq1RKsQTCEY/rs:fit:1200:720:1/g:ce/aHR0cHM6Ly9pLnl0/aW1nLmNvbS92aS92/N0hQUC12OUxpcy9t/YXhyZXNkZWZhdWx0/LmpwZw"
+			],
+			"desc": "3D tuning app to tune cars online!",
+			"feat": "tuning, cars, 3D."
+		}
+	},
+	{
+		 "name": "SpatialChat",
+		  "icon": "https://imgs.search.brave.com/Xzeq3w4oNdcZkpTeHdXRO7G3_HEChPupUfXC8C1qBus/rs:fit:399:399:1/g:ce/aHR0cHM6Ly9pbWFn/ZXMuc2Fhc3dvcnRo/eS5jb20vc3BhdGlh/bGNoYXRfMTE2MDdf/bG9nb18xNjA2OTgy/NTAzX212dWpiLmpw/Zw",
+		  "type": "app",
+		  "data": {
+			"type": "IFrame",
+			"url": "https://app.spatial.chat/s/campfirefurs",
+			"invert": false,
+			"gallery": [
+				"https://imgs.search.brave.com/O9ROVdU5-qm2A_eqDwblc9CHjZd0SINv58bAROmZ300/rs:fit:1024:587:1/g:ce/aHR0cHM6Ly93d3cu/c2VsYnN0bGVybmVu/Lm5ldC93cC1jb250/ZW50L3VwbG9hZHMv/c2l0ZXMvMjMvMjAy/MS8wNy9zZWxic3Rs/ZXJuZW4ubmV0LUND/LUJZLTQuMC1zcGF0/aWFsY2hhdC1ncnVw/cGUtMTAyNHg1ODcu/cG5n"
+			],
+			"desc": "Online spatial audio and video chat",
+			"feat": "spatial, mic, video, calling."
 		}
 	},
 	{
