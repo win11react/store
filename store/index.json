@@ -208,7 +208,7 @@
 		"type": "app",
 		"data": {
 			"type": "IFrame",
-			"url": "https://win.asylum-os.com/data/excel.html",
+			"url": "https://store.win11react.com/data/excel.html",
 			"gallery": [
 				"https://www.techrepublic.com/a/hub/i/r/2019/05/31/b9b3ae1d-6799-4118-8bcf-2bc3747c018f/resize/1200x/04c6599c3bc58330bd3350dd77984274/figure-b.jpg",
 				"https://www.smartsheet.com/sites/default/files/IC-how-to-make-spreadsheet-11%20copy.jpg",
@@ -224,7 +224,7 @@
 		"type": "app",
 		"data": {
 			"type": "IFrame",
-			"url": "https://win.asylum-os.com/data/word.html",
+			"url": "https://store.win11react.com/data/word.html",
 			"gallery": [
 				"https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4r1GB",
 				"https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4qsko",
