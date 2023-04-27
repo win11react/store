@@ -15,6 +15,23 @@
 			"feat": "music, radio, podcasts."
 		}
 	},
+ 	{
+		"name": "Bing",
+		"icon": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Bing_Fluent_Logo.svg",
+		"type": "app",
+		"data": {
+			"type": "IFrame",
+			"url": "https://www.bing.com",
+			"invert": false,
+			"gallery": [
+				"https://upload.wikimedia.org/wikipedia/commons/9/9c/Bing_Fluent_Logo.svg",
+				"https://upload.wikimedia.org/wikipedia/commons/9/9c/Bing_Fluent_Logo.svg",
+				"https://upload.wikimedia.org/wikipedia/commons/9/9c/Bing_Fluent_Logo.svg"
+			],
+			"desc": "A Bing search engine in the form of a program/."
+			"feat": "New Bing searches preview included, try them/!"
+		}
+	},
 	{
 		"name": "Visual Studio Code",
 		"icon": "https://raw.githubusercontent.com/blueedgetechno/win11React/master/public/img/icon/code.png",
