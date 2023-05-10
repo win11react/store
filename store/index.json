@@ -45,7 +45,6 @@
 			"feat": "Use Android inside of Windows 11."
 		}
 	},
- 
  	{
 		"name": "WSL",
 		"icon": "https://raw.githubusercontent.com/win11react/store/main/store/img/wsl.jpg",
@@ -61,7 +60,20 @@
 			"feat": "Run apps and more."
 		}
 	},
- 
+ 	{
+		"name": "BreezeOS",
+		"icon": "https://raw.githubusercontent.com/baodaigov/BreezeOS/master/public/favicon.ico",
+		"type": "app",
+		"data": {
+			"type": "IFrame",
+			"url": "https://baodaigov.github.io/BreezeOS",
+			"gallery": [
+				"https://user-images.githubusercontent.com/119743748/237158946-fdc8759c-cf80-4601-ac2b-7e17dda9255d.png",
+			],
+			"desc": "Operating system created by an unrecognized government organization.",
+			"feat": "It can literally do anything that normal OS does."
+		}
+	},
 	{
 		"name": "Jitsi Meet",
 		"icon": "https://avatars.githubusercontent.com/u/3671647",
