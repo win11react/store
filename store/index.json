@@ -742,4 +742,15 @@
 			"feat": "Play simply with your keyboard, or connect a drum controller!",
 			"invert": true
 		}
+},
+  {
+		"name": "iPadOS VM",
+		"icon": "https://th.bing.com/th/id/R.63fab2b6e0e038ac2b062908b06498ac?rik=b0%2fgn%2fFfLr7Xuw&riu=http%3a%2f%2fclipart-library.com%2fimages_k%2fapple-logo-transparent-background%2fapple-logo-transparent-background-13.png&ehk=7vX%2bJVxnagZYK7dP7Tu4JyP0rriceevr%2b3iJOejcGYQ%3d&risl=&pid=ImgRaw&r=0",
+		"type": "Virtual Machine",
+		"data": {
+			"type": "IFrame",
+			"url": "https://goldengocoding.github.io/iPadOS/",
+			"desc": "iPadOS in HTML!",
+			"feat": "Nothing much to say really..."
+		}
 }]
