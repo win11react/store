@@ -759,12 +759,12 @@
 		}
 },
   {
-		"name": "iPadOS VM (alpha)",
+		"name": "iPadOS VM",
 		"icon": "https://th.bing.com/th/id/R.b1648f8218f3bdf5187d0a6a5dba37ef?rik=wFM5MUrRORTC%2fA&pid=ImgRaw&r=0",
 		"type": "Virtual Machine",
 		"data": {
 			"type": "IFrame",
-			"url": "https://goldengocoding.github.io/iPadOS-in-HTML/",
+			"url": "https://goldengocoding.github.io/iPadOS/",
 			"gallery": [
 				"https://th.bing.com/th/id/R.b1648f8218f3bdf5187d0a6a5dba37ef?rik=wFM5MUrRORTC%2fA&pid=ImgRaw&r=0"
 			],
