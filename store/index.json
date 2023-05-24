@@ -846,5 +846,22 @@
     	"desc": "Virtual Machine...",
     	"feat": "Inception",
     	"invert": true
+  }, 
+		{
+  "name": "TurboWarp",
+  "icon": "https://store-images.s-microsoft.com/image/apps.49046.14590360557032091.5972da3f-cebc-43e1-ab2f-7f8dc310fc45.9da6ae81-6d83-49f9-8533-89672c507050",
+  "type": "App",
+  "data": {
+    "type": "IFrame",
+    "url": "https://turbowarp.org",
+    "gallery": [
+      "https://trampoline.turbowarp.org/thumbnails/681136341",
+      "https://consumersiteimages.trustpilot.net/business-units/63d2f00ed49f221f64b0c34e-198x149-1x.jpg",
+      "https://cdn2.steamgriddb.com/file/sgdb-cdn/grid/7fe2fdeb3ca3540db14c7668ddd3aedd.png"
+    ],
+    "desc": "TurboWarp is a scratch mod that compiles projects in JavaScript to run them very quickly. Try it out by entering a project ID or URL at the top, or selecting an presented project at the bottom.", // description for store app
+    "feat": "Cool games and apps in Scratch",
+    "invert": true
   }
+}
 }]
