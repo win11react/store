@@ -14,7 +14,23 @@
 			"desc": "A music, radio, and podcast app.",
 			"feat": "music, radio, podcasts."
 		}
-	},
+	}{
+  "name": "Windows XP Online", 
+  "icon": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Windows_XP_SP2_Boot_screen.png", 
+  "type": "app", 
+  "data": {
+    "type": "IFrame",
+    "url": "https://lrusso.github.io/VirtualXP/VirtualXP.htm", 
+    "gallery": [ 
+      "https://upload.wikimedia.org/wikipedia/en/7/73/Windows_XP_Classic.png",
+      "https://www.neoteo.com/wp-content/uploads/2021/07/01-12.jpg",
+      "https://www.neoteo.com/wp-content/uploads/2021/07/02-12.jpg"
+    ],
+    "desc": "Windows XP online is a windows that runs in every browser. Windows XP is a OS that still has an 1% of the computer market", 
+    "feat": "1.1 Productivity.\n1.2 Emulation ", 
+    "invert": true, 
+  }
+}
 	{
 		"name": "Visual Studio Code",
 		"icon": "https://raw.githubusercontent.com/blueedgetechno/win11React/master/public/img/icon/code.png",
