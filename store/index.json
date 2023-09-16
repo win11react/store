@@ -834,6 +834,33 @@
 		}
 	},
 	{
+  		"name": "Chromium",
+  		"icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Chromium_Logo.svg/512px-Chromium_Logo.svg.png",
+  		"name": "Chromium",
+  		"icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Chromium_Logo.svg/512px-Chromium_Logo.svg.png",
+  		"type": "Web Browser",
+  		"data": {
+    			"type": "IFrame",
+    			"url": "https://replit.com/@NoahDavis23/Browser?embed=1",
+    			"gallery": [
+      				"https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Chromium_Logo.svg/512px-Chromium_Logo.svg.png"
+    	],
+    	"desc": "Full Chromium For Windows 11",
+    	"feat": "Inception",
+    	"invert": true
+  }",
+  		"type": "Virtual Machine",
+  		"data": {
+    			"type": "IFrame",
+    			"url": "https://win11.blueedge.me",
+    			"gallery": [
+      				"https://news.microsoft.com/wp-content/uploads/prod/sites/454/2021/10/Hero-Bloom-Logo-800x533-1.jpg"
+    	],
+    	"desc": "Virtual Machine...",
+    	"feat": "Inception",
+    	"invert": true
+  }
+		{
   		"name": "windows 11 Inception",
   		"icon": "https://images.tokopedia.net/img/cache/500-square/VqbcmM/2022/1/29/ad18df0f-bee3-4b8a-9806-ff32ba2e0754.jpg.webp?ect=4g",
   		"type": "Virtual Machine",
