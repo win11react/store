@@ -40,13 +40,13 @@ jobs:
       - name: iframe
         run: echo ${{ env.FRAME}}
       
-      - uses: ben-z/actions-comment-on-issue@1.0.2
+      - uses: ben-z/actions-comment-on-issue@1.0.3
         if: ${{ env.FRAME == 'true' }}
         with:
           message: "Sorry the URL for the website ${{ steps.issue-parser.outputs.issueparser_Name }} is not iframeable."
           GITHUB_TOKEN: ${{ secrets.BOT }}
           
-      - uses: ben-z/actions-comment-on-issue@1.0.2
+      - uses: ben-z/actions-comment-on-issue@1.0.3
         if: ${{ env.FRAME == 'false' }}
         with:
           message: "Thank you for suggesting, ${{ steps.issue-parser.outputs.issueparser_Name }} once approved it will be added. "
@@ -111,7 +111,7 @@ jobs:
 #          title: Add ${{ steps.issue-parser.outputs.issueparser_Name }}
 #          body: Add ${{ steps.issue-parser.outputs.issueparser_Name }} with url ${{ steps.issue-parser.outputs.issueparser_URL }}. THIS SERVICE IS IN BETA CHANGES MUST BE CHECKED BEFORE MERGING. IMAGES MUST BE MANULLY ADDED.
 #      
-#      - uses: ben-z/actions-comment-on-issue@1.0.2
+#      - uses: ben-z/actions-comment-on-issue@1.0.3
 #        if: ${{ env.FRAME == 'false' }}
 #        with:
 #          message: "A Pull request has been generated. You may view this here: ${{ steps.cpr.outputs.pull-request-url }} "
