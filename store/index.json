@@ -846,5 +846,22 @@
     	"desc": "Virtual Machine...",
     	"feat": "Inception",
     	"invert": true
+  },
+		{
+  "name": "Retro Bowl",
+  "icon": "https://upload.wikimedia.org/wikipedia/en/b/bf/Retro_Bowl_cover.png",
+  "type": "game",
+  "data": {
+    "type": "IFrame",
+    "url": "https://KmanGamer1246.github.io/Retro-Bowl/",
+    "gallery": [
+      "https://play-lh.googleusercontent.com/Ov_9r4LRLZZNN8qd91NEUUHCbm_ykIwxAHy3w92vtyYpC-y5OY1AVLz7sVBhGzfWXG4=w526-h296-rw",
+      "https://pbs.twimg.com/media/FoCT7q6XkAA11sO.png:large",
+      "https://play-lh.googleusercontent.com/8KNwJKRiT1lUDhJeKE9Vnino3PJgTKTlm2iqkgqJeTrUNJLmMGTTAAW6iPQWvhj8-A=w526-h296-rw"
+    ],
+    "desc": "Retro Bowl is an old-school styled American football video game developed by New Star Games.",
+    "feat": "Retro Bowl is an American football game in retro style where your purpose is to coach your team and win a prize at the end of each season. Signing and cutting players is your duty as a manager. NFL is a complex league, so it’s quite hard to get success in each season, especially in first one, so manage wisely!",
+    "invert": true
   }
+}
 }]
