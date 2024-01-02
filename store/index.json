@@ -108,17 +108,17 @@
 	},
 	{
 		"name": "Minecraft",
-		"icon": "https://raw.githubusercontent.com/win11react/store/main/store/img/minecraft.png",
+		"icon": "https://",https://coffeeinduced.files.wordpress.com/2011/10/minecraft-pocket-edition-android.jpg
 		"type": "game",
 		"data": {
 			"type": "IFrame",
-			"url": "https://classic.minecraft.net",
+			"url": "https://eaglercraft.com/mc/b1.3/",
 			"gallery": [
 				"https://www.minecraft.net/content/dam/games/minecraft/key-art/CavesandCliffsPt1-dotNET-HomepagePromo-600x360.png",
 				"https://variety.com/wp-content/uploads/2019/02/minecraft-best-year-yet.png?w=600",
 				"https://www.minecraft.net/content/dam/games/minecraft/screenshots/RayTracing-MineCraft-PMP-Always-Something-New.jpg"
 			],
-			"desc": "Minecraft is a sandbox construction video game developed by Mojang Studios where players interact with a fully modifiable three-dimensional environment made of blocks and entities.\nIts diverse gameplay lets players choose the way they play, allowing for countless possibilities. There are three actively maintained editions of Minecraft: Java Edition, Bedrock Edition, and Education Edition.",
+			"desc": "Minecraft is a sandbox construction video game developed by Notch where players interact with a fully modifiable three-dimensional environment made of blocks and entities.\nIts diverse gameplay lets players choose the way they play, allowing for countless possibilities. There are three actively maintained editions of Minecraft: Java Edition, Bedrock Edition, and Education Edition.",
 			"feat": "1.1 Combat changes.\n1.2 Fletching table functionality.\n1.3 Voted updates.\n1.4 Super Fancy graphics.\n1.5 Phasing out of NBT-based crafting recipes.\n1.6 Full split of liquids from blocks.\n1.7 Shaders.\n1.8 Archaeology."
 		}
 	},
