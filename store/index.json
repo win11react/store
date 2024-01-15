@@ -4,11 +4,9 @@
 		"type": "app",
 		"data": {
 			"type": "IFrame",
-			"url": "https://ltunes.gq",
+			"url": "https://app.ltunes.gq",
 			"invert": false,
 			"gallery": [
-				"https://ltunes.gq/assets/Logo.png",
-				"https://ltunes.gq/assets/Logo.png",
 				"https://ltunes.gq/assets/Logo.png"
 			],
 			"desc": "A music, radio, and podcast app.",
