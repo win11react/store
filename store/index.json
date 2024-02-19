@@ -30,6 +30,23 @@
 			"feat": "Fast, Powerful Editing-Linting, multi-cursor editing, parameter hints, and other powerful editing features.\nOver 30,000 extensions, and growing - Enable additional languages, themes, debuggers, commands, and more. VS Code's growing community shares their secret sauce to improve your workflow.\nBuild any app type, using any programming language and framework, including JavaScript and TypeScript, Python, Java, C/C++, C#, Go, Rust, PHP, and many more, as well as many popular technologies.\nSupport for notebooks including Jupyter, for data science and Al development.\nBuilt-in support for Git source control management and integrations with GitHub for managing issues and pull requests.\nIntelligent Code Completion - IntelliSense and Al-driven IntelliCode offer completions for variables, methods, and imported modules.\nRich Debugging-Print debugging is a thing of the past. Use debugging tools directly in VS Code.\nWrite code from anywhere with the Visual Studio Code Remote extensions and support for GitHub Codespaces."
 		}
 	},
+	{
+  "name": "Windows XP Online", 
+  "icon": "https://archive.org/download/1d9464dbff7a1630882d0e2090cb714c/1d9464dbff7a1630882d0e2090cb714c.jpg", 
+  "type": "app", 
+  "data": {
+    "type": "IFrame",
+    "url": "https://lrusso.github.io/VirtualXP/VirtualXP.htm", 
+    "gallery": [ 
+      "https://upload.wikimedia.org/wikipedia/en/7/73/Windows_XP_Classic.png",
+      "https://www.neoteo.com/wp-content/uploads/2021/07/01-12.jpg",
+      "https://www.neoteo.com/wp-content/uploads/2021/07/02-12.jpg"
+    ],
+    "desc": "Windows XP online is a windows that runs in every browser.Windows XP is a OS that still has an 1% of the computer market", 
+    "feat": "1.1 Productivity.\n1.2 Emulation ", 
+    "invert": true, 
+  }
+}
  
  	{
 		"name": "WSA",
