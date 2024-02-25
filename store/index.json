@@ -834,6 +834,24 @@
 		}
 	},
 	{
+  "name": "Discord", 
+  "icon": "https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/discord-round-color-icon.png", 
+  "type": "app", 
+  "data": {
+    "type": "IFrame", 
+    "url": "https://discord.com", 
+    "gallery": [
+      "https://assets-global.website-files.com/6257adef93867e50d84d30e2/6582c18a9cff186bd3731704_Create%20an%20invite-only%20place%20where%20you%20belong.svg",
+      "https://assets-global.website-files.com/6257adef93867e50d84d30e2/6582c1b717efff2306ef179e_Where%20hanging%20out%20is%20easy.svg",
+      "https://assets-global.website-files.com/6257adef93867e50d84d30e2/6582c1d8348e5c81ca608138_From%20few%20to%20a%20fandom.svg"
+    ],
+    "desc": "Discord is where you can make a home for your communities and friends. Where you can stay close and have fun over text, voice, and video chat. Whether you’re part of a school club, a gaming group, a worldwide art community, or just a handful of friends who want to spend time together, Discord makes it easy to talk every day, and hang out more often.
+",
+    "feat": "Created by https://discord.gg/wCZtsFWUV3",
+    "invert": false
+                }
+        },
+	{
   		"name": "windows 11 Inception",
   		"icon": "https://images.tokopedia.net/img/cache/500-square/VqbcmM/2022/1/29/ad18df0f-bee3-4b8a-9806-ff32ba2e0754.jpg.webp?ect=4g",
   		"type": "Virtual Machine",
