@@ -1,4 +1,57 @@
 [{
+  "name": "Marble Blast Gold",
+  "icon": "https://i.ibb.co/F01xspH/MBG.png",
+  "type": "game",
+  "data": {
+    "type": "IFrame",
+    "url": "https://egg.l5.ca/games/mbg",
+    "gallery": [
+      "https://i.ibb.co/fvFQ9tR/screenshot-00001.png",
+      "https://i.ibb.co/ZSXjvGS/screenshot-00002.png",
+      "https://i.ibb.co/DLSsftJ/screenshot-00003.png",
+	  "https://i.ibb.co/PZxFtyh/screenshot-00004.png"
+    ],
+    "desc": "Released in 2003 for Windows, Mac and Linux, Marble Blast Gold is a ball rolling game. In the game, your goal is to roll the marble to the finish pad. Collecting all the gems are a requirement for beating the level, and some levels require the use of powerups to finish.",
+    "feat": "100 levels and 6 powerups! 24 Beginner, 24 Intermediate and 52 Advanced.",
+    "invert": false
+  }
+},
+{
+  "name": "Marble Blast Platinum",
+  "icon": "https://i.ibb.co/zNdGgqv/MBP.png",
+  "type": "game",
+  "data": {
+    "type": "IFrame",
+    "url": "https://egg.l5.ca/games/mbp",
+    "gallery": [
+      "https://i.ibb.co/L8pjdyN/screenshot-00000.png",
+      "https://i.ibb.co/R0Kh6wh/screenshot-00001.png",
+      "https://i.ibb.co/F5QVnXT/screenshot-00002.png",
+	  "https://i.ibb.co/HH3S8By/screenshot-00003.png"
+    ],
+    "desc": "Released in 2007, Marble Blast Platinum is a fan mod for Marble Blast Gold. Like Marble Blast Gold, your objective is to roll the marble to the finish pad.",
+    "feat": "120 levels, with levels from Gold and Ultra. And, over 5000 custom levels!",
+    "invert": false
+  }
+},
+{
+  "name": "Marble Blast Ultra",
+  "icon": "https://i.ibb.co/WBs6Sjz/MBU.png",
+  "type": "game",
+  "data": {
+    "type": "IFrame",
+    "url": "https://egg.l5.ca/games/mbu",
+    "gallery": [
+      "https://i.ibb.co/x3VQq3b/screenshot-00004.png",
+      "https://i.ibb.co/TmLgKMZ/screenshot-00005.png",
+      "https://i.ibb.co/zn3NP2y/screenshot-00006.png"
+    ],
+    "desc": "Released in 2006 on Xbox Live Arcade for the 360, Marble Blast Ultra is a ball rolling game. Like Marble Blast Gold, your objective is to roll the marble to the finish pad.",
+    "feat": "60 levels! A new mechanic not seen in Gold, called the Blast, giving you a little height boost. Two new powerups have been added, the Mega Marble and Ultra Blast.",
+    "invert": false
+  }
+},
+{
 		"name": "LTunes",
 		"icon": "https://ltunes.gq/assets/Logo.png",
 		"type": "app",
