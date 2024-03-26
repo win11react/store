@@ -9,13 +9,13 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: ben-z/actions-comment-on-issue@1.0.2
+    - uses: ben-z/actions-comment-on-issue@1.0.3
       if: ${{ github.event.label.name == 'Approved' }}
       with:
         message: "Your submission has been approved"
         GITHUB_TOKEN: ${{ secrets.STORE }}
     
-    - uses: ben-z/actions-comment-on-issue@1.0.2
+    - uses: ben-z/actions-comment-on-issue@1.0.3
       if: ${{ github.event.label.name == 'denied' }}
       with:
         message: "Your submission has been denied. Sorry"
