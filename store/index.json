@@ -1,19 +1,16 @@
 [{
-  "name": "Marble Blast Gold",
-  "icon": "https://i.ibb.co/F01xspH/MBG.png",
+  "name": "Time shooter",
+  "icon": "https://th.bing.com/th/id/R.b42bcaf710c4a2d953d1599418cb848b?rik=0ZASYgRSz7xXQg&pid=ImgRaw&r=0",
   "type": "game",
   "data": {
     "type": "IFrame",
-    "url": "https://egg.l5.ca/games/mbg",
+    "url": "https://www.crazygames.com/game/time-shooter-3-swat",
     "gallery": [
-      "https://i.ibb.co/fvFQ9tR/screenshot-00001.png",
-      "https://i.ibb.co/ZSXjvGS/screenshot-00002.png",
-      "https://i.ibb.co/DLSsftJ/screenshot-00003.png",
-	  "https://i.ibb.co/PZxFtyh/screenshot-00004.png"
+      "https://th.bing.com/th/id/R.68a394e94fd592701e63e6fc4b2b8982?rik=%2fTi%2ffY9znMNtbA&riu=http%3a%2f%2fsnakes-3d.com%2fwp-content%2fuploads%2f2022%2f05%2ftime-shooter-3-swat.jpg&ehk=2iCMMIy6%2bQ4QDwvgsBky%2bbF0K8%2br0UVIiZBZkHzLBr0%3d&risl=&pid=ImgRaw&r=0",
     ],
-    "desc": "Released in 2003 for Windows, Mac and Linux, Marble Blast Gold is a ball rolling game. In the game, your goal is to roll the marble to the finish pad. Collecting all the gems are a requirement for beating the level, and some levels require the use of powerups to finish.",
-    "feat": "100 levels and 6 powerups! 24 Beginner, 24 Intermediate and 52 Advanced.",
-    "invert": false
+    "desc": "En este juego se trata de disparar a tus enemigos y este es el primer juego que tiene la descripción en español esto fué posible gracias a Win11React.",
+    "feat": "Puedes desbloquear armas legendarias!.",
+    "invert": true
   }
 },
 {
@@ -29,8 +26,8 @@
       "https://i.ibb.co/F5QVnXT/screenshot-00002.png",
 	  "https://i.ibb.co/HH3S8By/screenshot-00003.png"
     ],
-    "desc": "Released in 2007, Marble Blast Platinum is a fan mod for Marble Blast Gold. Like Marble Blast Gold, your objective is to roll the marble to the finish pad.",
-    "feat": "120 levels, with levels from Gold and Ultra. And, over 5000 custom levels!",
+    "desc": "",
+    "feat": "",
     "invert": false
   }
 },
